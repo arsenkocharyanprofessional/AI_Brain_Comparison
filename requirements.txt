@@ -1,0 +1,19 @@
+# Vault Wars dependencies. Python 3.12.
+# Versions are pinned so every teammate gets the same results.
+
+# Map download and road graph
+osmnx==2.1.1
+networkx==3.7
+
+# Numbers and tables
+numpy==2.5.4
+pandas==3.1.0
+
+# Statistics (Friedman, Wilcoxon, confidence intervals)
+scipy==1.18.1
+
+# Plots for checks and the report
+matplotlib==3.11.2
+
+# Tests
+pytest==9.2.0

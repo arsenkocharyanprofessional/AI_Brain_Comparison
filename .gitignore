@@ -1,0 +1,22 @@
+# Virtual environments (keep them outside OneDrive too)
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OSMnx download cache (the cleaned graphs we use go in data/ and are committed)
+cache/
+
+# Experiment outputs that can be regenerated
+experiments/output/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
