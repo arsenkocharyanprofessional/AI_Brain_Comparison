@@ -6,7 +6,7 @@ DEMO MINIMUM: Stages 1 to 6, plus Stage 8, plus the Replay viewer (Stage 4 and 5
 
 ## Stage 0: Setup
 * [ ] 0.1 Repo with folders: `engine/`, `brains/`, `experiments/`, `app/`, `data/`, `docs/`, `tests/`. Python venv outside OneDrive and listed in .gitignore, requirements.txt. Done when: `pip install -r requirements.txt` works on a fresh clone.
-* [ ] 0.2 Put the project description PDF and the Deliverable 2 docx in `docs/`. Done when: CLAUDE.md links resolve.
+* [x] 0.2 Put the project description PDF and the Deliverable 2 docx in `docs/`. Done when: CLAUDE.md links resolve.
 
 ## Stage 1: Map and layout
 * [ ] 1.1 Download and cache the Yerevan drive network at 2, 2.5, 3 km. Done when: 3 cached graph files are committed, load offline, and node and edge counts are printed.
