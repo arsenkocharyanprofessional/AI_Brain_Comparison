@@ -5,7 +5,7 @@ Rule: do one step, check its "Done when", tick it, then move on. A gate must pas
 DEMO MINIMUM: Stages 1 to 6, plus Stage 8, plus the Replay viewer (Stage 4 and 5.7) and the Results dashboard (9.2). Everything else is extra and follows the cut list in CLAUDE.md.
 
 ## Stage 0: Setup
-* [ ] 0.1 Repo with folders: `engine/`, `brains/`, `experiments/`, `app/`, `data/`, `docs/`, `tests/`. Python venv outside OneDrive and listed in .gitignore, requirements.txt. Done when: `pip install -r requirements.txt` works on a fresh clone.
+* [x] 0.1 Repo with folders: `engine/`, `brains/`, `experiments/`, `app/`, `data/`, `docs/`, `tests/`. Python venv outside OneDrive and listed in .gitignore, requirements.txt. Done when: `pip install -r requirements.txt` works on a fresh clone.
 * [x] 0.2 Put the project description PDF and the Deliverable 2 docx in `docs/`. Done when: CLAUDE.md links resolve.
 
 ## Stage 1: Map and layout
