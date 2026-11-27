@@ -646,26 +646,6 @@
       <data key="d5">44.52344</data>
       <data key="d6">3</data>
     </node>
-    <node id="310482033">
-      <data key="d4">40.1552293</data>
-      <data key="d5">44.5218377</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="310482036">
-      <data key="d4">40.1559333</data>
-      <data key="d5">44.5201019</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="310482038">
-      <data key="d4">40.1555573</data>
-      <data key="d5">44.5207023</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="310482040">
-      <data key="d4">40.1553305</data>
-      <data key="d5">44.5213024</data>
-      <data key="d6">3</data>
-    </node>
     <node id="310482042">
       <data key="d4">40.1587847</data>
       <data key="d5">44.5187769</data>
@@ -681,70 +661,10 @@
       <data key="d5">44.5209278</data>
       <data key="d6">3</data>
     </node>
-    <node id="310482140">
-      <data key="d4">40.1554022</data>
-      <data key="d5">44.5325277</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="310482275">
-      <data key="d4">40.1561101</data>
-      <data key="d5">44.5274803</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="310482280">
-      <data key="d4">40.1554948</data>
-      <data key="d5">44.5266017</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="310482290">
-      <data key="d4">40.1561065</data>
-      <data key="d5">44.5263304</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="310482304">
-      <data key="d4">40.1563715</data>
-      <data key="d5">44.5251133</data>
-      <data key="d6">1</data>
-    </node>
     <node id="310482307">
       <data key="d4">40.1563786</data>
       <data key="d5">44.5247869</data>
       <data key="d6">1</data>
-    </node>
-    <node id="310482311">
-      <data key="d4">40.1561627</data>
-      <data key="d5">44.5265944</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="310482320">
-      <data key="d4">40.1571751</data>
-      <data key="d5">44.5269678</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="310482322">
-      <data key="d4">40.1571716</data>
-      <data key="d5">44.5265749</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="310482323">
-      <data key="d4">40.1571592</data>
-      <data key="d5">44.5272532</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="310482325">
-      <data key="d4">40.1568341</data>
-      <data key="d5">44.5277192</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="310482399">
-      <data key="d4">40.1560359</data>
-      <data key="d5">44.5260794</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="310482430">
-      <data key="d4">40.1555601</data>
-      <data key="d5">44.5230185</data>
-      <data key="d6">3</data>
     </node>
     <node id="310482471">
       <data key="d4">40.1649601</data>
@@ -1107,11 +1027,6 @@
       <data key="d5">44.4886505</data>
       <data key="d6">3</data>
     </node>
-    <node id="311039474">
-      <data key="d4">40.1998194</data>
-      <data key="d5">44.5401509</data>
-      <data key="d6">3</data>
-    </node>
     <node id="311039601">
       <data key="d4">40.1966304</data>
       <data key="d5">44.5263395</data>
@@ -1170,16 +1085,6 @@
     <node id="331484719">
       <data key="d4">40.1707193</data>
       <data key="d5">44.5398986</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="331484815">
-      <data key="d4">40.1707144</data>
-      <data key="d5">44.5418739</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="331486185">
-      <data key="d4">40.1754014</data>
-      <data key="d5">44.5415722</data>
       <data key="d6">3</data>
     </node>
     <node id="331489198">
@@ -1272,11 +1177,6 @@
       <data key="d5">44.5270143</data>
       <data key="d6">4</data>
     </node>
-    <node id="331543959">
-      <data key="d4">40.15563</data>
-      <data key="d5">44.5088862</data>
-      <data key="d6">2</data>
-    </node>
     <node id="331546026">
       <data key="d4">40.1567983</data>
       <data key="d5">44.5157506</data>
@@ -1365,16 +1265,6 @@
     <node id="331556002">
       <data key="d4">40.1687413</data>
       <data key="d5">44.4923405</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="331556512">
-      <data key="d4">40.1632953</data>
-      <data key="d5">44.4862577</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="331556514">
-      <data key="d4">40.1588881</data>
-      <data key="d5">44.4836851</data>
       <data key="d6">4</data>
     </node>
     <node id="353763437">
@@ -1485,11 +1375,6 @@
       <data key="d5">44.5084211</data>
       <data key="d6">1</data>
     </node>
-    <node id="370166067">
-      <data key="d4">40.159371</data>
-      <data key="d5">44.5084727</data>
-      <data key="d6">1</data>
-    </node>
     <node id="372623327">
       <data key="d4">40.1671482</data>
       <data key="d5">44.5154769</data>
@@ -1519,91 +1404,6 @@
       <data key="d4">40.1559208</data>
       <data key="d5">44.5010461</data>
       <data key="d6">3</data>
-    </node>
-    <node id="386577776">
-      <data key="d4">40.1572278</data>
-      <data key="d5">44.4913183</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="386577832">
-      <data key="d4">40.1559205</data>
-      <data key="d5">44.492853</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="386577833">
-      <data key="d4">40.1562036</data>
-      <data key="d5">44.4901967</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="386577914">
-      <data key="d4">40.1564727</data>
-      <data key="d5">44.4929284</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="386577915">
-      <data key="d4">40.1567341</data>
-      <data key="d5">44.4907737</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="386577917">
-      <data key="d4">40.1574664</data>
-      <data key="d5">44.4892419</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="386578201">
-      <data key="d4">40.159345</data>
-      <data key="d5">44.4873529</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="386578204">
-      <data key="d4">40.1591912</data>
-      <data key="d5">44.4867669</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="386578207">
-      <data key="d4">40.1577</data>
-      <data key="d5">44.4883306</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="386578213">
-      <data key="d4">40.1556462</data>
-      <data key="d5">44.4895977</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="386578362">
-      <data key="d4">40.1595474</data>
-      <data key="d5">44.4849538</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="386578447">
-      <data key="d4">40.1576109</data>
-      <data key="d5">44.4864421</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="386578448">
-      <data key="d4">40.1567078</data>
-      <data key="d5">44.4877464</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="386578505">
-      <data key="d4">40.1579784</data>
-      <data key="d5">44.491627</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="386578506">
-      <data key="d4">40.1572317</data>
-      <data key="d5">44.4914948</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="386579127">
-      <data key="d4">40.1617641</data>
-      <data key="d5">44.4844809</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="386579205">
-      <data key="d4">40.1557396</data>
-      <data key="d5">44.484016</data>
-      <data key="d6">4</data>
     </node>
     <node id="387636479">
       <data key="d4">40.1832075</data>
@@ -1892,11 +1692,6 @@
       <data key="d5">44.5151551</data>
       <data key="d6">4</data>
     </node>
-    <node id="406387626">
-      <data key="d4">40.1555846</data>
-      <data key="d5">44.5102696</data>
-      <data key="d6">4</data>
-    </node>
     <node id="406387627">
       <data key="d4">40.1929076</data>
       <data key="d5">44.5097217</data>
@@ -2016,11 +1811,6 @@
     <node id="612586210">
       <data key="d4">40.199096</data>
       <data key="d5">44.5376193</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="612586242">
-      <data key="d4">40.1997384</data>
-      <data key="d5">44.5376789</data>
       <data key="d6">3</data>
     </node>
     <node id="613400377">
@@ -2397,50 +2187,10 @@
       <data key="d5">44.526822</data>
       <data key="d6">3</data>
     </node>
-    <node id="1142241198">
-      <data key="d4">40.1608428</data>
-      <data key="d5">44.4848226</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="1142241230">
-      <data key="d4">40.1622524</data>
-      <data key="d5">44.4856475</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="1142241253">
-      <data key="d4">40.1605935</data>
-      <data key="d5">44.4855628</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="1142241320">
-      <data key="d4">40.1647599</data>
-      <data key="d5">44.4859711</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="1142241332">
-      <data key="d4">40.1615056</data>
-      <data key="d5">44.4852104</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="1142241367">
-      <data key="d4">40.1628794</data>
-      <data key="d5">44.4843228</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="1142241369">
-      <data key="d4">40.1610881</data>
-      <data key="d5">44.4840943</data>
-      <data key="d6">3</data>
-    </node>
     <node id="1327730699">
       <data key="d4">40.1982487</data>
       <data key="d5">44.4973298</data>
       <data key="d6">4</data>
-    </node>
-    <node id="1327731502">
-      <data key="d4">40.1991091</data>
-      <data key="d5">44.4934256</data>
-      <data key="d6">3</data>
     </node>
     <node id="1327731602">
       <data key="d4">40.1972542</data>
@@ -2526,21 +2276,6 @@
     <node id="1342686489">
       <data key="d4">40.1957314</data>
       <data key="d5">44.5165961</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="1406262973">
-      <data key="d4">40.1999836</data>
-      <data key="d5">44.5206647</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="1431667620">
-      <data key="d4">40.1571887</data>
-      <data key="d5">44.4858987</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="1431667625">
-      <data key="d4">40.1580146</data>
-      <data key="d5">44.4869699</data>
       <data key="d6">3</data>
     </node>
     <node id="1446420597">
@@ -2681,11 +2416,6 @@
       <data key="d5">44.5071038</data>
       <data key="d6">3</data>
     </node>
-    <node id="1475774835">
-      <data key="d4">40.1554592</data>
-      <data key="d5">44.5009156</data>
-      <data key="d6">3</data>
-    </node>
     <node id="1475774857">
       <data key="d4">40.1574824</data>
       <data key="d5">44.5021001</data>
@@ -2720,11 +2450,6 @@
       <data key="d4">40.1751303</data>
       <data key="d5">44.4894199</data>
       <data key="d6">1</data>
-    </node>
-    <node id="1535109557">
-      <data key="d4">40.1563169</data>
-      <data key="d5">44.4847668</data>
-      <data key="d6">3</data>
     </node>
     <node id="1662998868">
       <data key="d4">40.1917691</data>
@@ -3016,11 +2741,6 @@
     <node id="1868615341">
       <data key="d4">40.1621377</data>
       <data key="d5">44.5391483</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="1874021519">
-      <data key="d4">40.1592726</data>
-      <data key="d5">44.5115927</data>
       <data key="d6">3</data>
     </node>
     <node id="1882920476">
@@ -3338,21 +3058,6 @@
       <data key="d5">44.5168107</data>
       <data key="d6">3</data>
     </node>
-    <node id="1983420615">
-      <data key="d4">40.1574266</data>
-      <data key="d5">44.4915485</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="1983420633">
-      <data key="d4">40.1578775</data>
-      <data key="d5">44.4884059</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="1983420640">
-      <data key="d4">40.1584498</data>
-      <data key="d5">44.4885289</data>
-      <data key="d6">3</data>
-    </node>
     <node id="1983420658">
       <data key="d4">40.1647218</data>
       <data key="d5">44.5010081</data>
@@ -3569,11 +3274,6 @@
       <data key="d5">44.510546</data>
       <data key="d6">1</data>
     </node>
-    <node id="2106801592">
-      <data key="d4">40.1752114</data>
-      <data key="d5">44.5171152</data>
-      <data key="d6">1</data>
-    </node>
     <node id="2233375802">
       <data key="d4">40.1588672</data>
       <data key="d5">44.5186363</data>
@@ -3652,11 +3352,6 @@
     <node id="2240176054">
       <data key="d4">40.1563674</data>
       <data key="d5">44.4998417</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="2240176056">
-      <data key="d4">40.1565755</data>
-      <data key="d5">44.5016022</data>
       <data key="d6">3</data>
     </node>
     <node id="2240176057">
@@ -3829,21 +3524,6 @@
       <data key="d5">44.5406009</data>
       <data key="d6">3</data>
     </node>
-    <node id="2268700315">
-      <data key="d4">40.1574147</data>
-      <data key="d5">44.5090369</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="2268700342">
-      <data key="d4">40.1583577</data>
-      <data key="d5">44.5091461</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="2268700344">
-      <data key="d4">40.1583656</data>
-      <data key="d5">44.5087199</data>
-      <data key="d6">1</data>
-    </node>
     <node id="2270900368">
       <data key="d4">40.1629736</data>
       <data key="d5">44.5015098</data>
@@ -3940,11 +3620,6 @@
       <data key="d5">44.5308525</data>
       <data key="d6">1</data>
     </node>
-    <node id="2281168856">
-      <data key="d4">40.2000731</data>
-      <data key="d5">44.5205181</data>
-      <data key="d6">3</data>
-    </node>
     <node id="2283469590">
       <data key="d4">40.1894025</data>
       <data key="d5">44.5416593</data>
@@ -3975,20 +3650,10 @@
       <data key="d5">44.5310456</data>
       <data key="d6">3</data>
     </node>
-    <node id="2303424251">
-      <data key="d4">40.1998616</data>
-      <data key="d5">44.5073103</data>
-      <data key="d6">1</data>
-    </node>
     <node id="2306670407">
       <data key="d4">40.1732329</data>
       <data key="d5">44.5140854</data>
       <data key="d7">crossing</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="2315582700">
-      <data key="d4">40.1930946</data>
-      <data key="d5">44.5336807</data>
       <data key="d6">3</data>
     </node>
     <node id="2315596240">
@@ -4005,11 +3670,6 @@
       <data key="d4">40.1660219</data>
       <data key="d5">44.5326802</data>
       <data key="d6">1</data>
-    </node>
-    <node id="2320223138">
-      <data key="d4">40.1561092</data>
-      <data key="d5">44.5122854</data>
-      <data key="d6">3</data>
     </node>
     <node id="2320358748">
       <data key="d4">40.1651767</data>
@@ -4056,11 +3716,6 @@
       <data key="d5">44.5233763</data>
       <data key="d6">3</data>
     </node>
-    <node id="2342432612">
-      <data key="d4">40.1593573</data>
-      <data key="d5">44.509241</data>
-      <data key="d6">3</data>
-    </node>
     <node id="2342479741">
       <data key="d4">40.167806</data>
       <data key="d5">44.5231224</data>
@@ -4100,16 +3755,6 @@
     <node id="2349516743">
       <data key="d4">40.1873255</data>
       <data key="d5">44.5018943</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="2365359010">
-      <data key="d4">40.1553745</data>
-      <data key="d5">44.4871691</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="2365359011">
-      <data key="d4">40.1567711</data>
-      <data key="d5">44.4853565</data>
       <data key="d6">3</data>
     </node>
     <node id="2365359015">
@@ -4155,11 +3800,6 @@
     <node id="2524472956">
       <data key="d4">40.1975395</data>
       <data key="d5">44.4932622</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="2524485828">
-      <data key="d4">40.1981791</data>
-      <data key="d5">44.4931322</data>
       <data key="d6">4</data>
     </node>
     <node id="2524488185">
@@ -4468,11 +4108,6 @@
       <data key="d5">44.4842673</data>
       <data key="d6">3</data>
     </node>
-    <node id="3824989902">
-      <data key="d4">40.1991061</data>
-      <data key="d5">44.49353</data>
-      <data key="d6">3</data>
-    </node>
     <node id="3828228957">
       <data key="d4">40.1967616</data>
       <data key="d5">44.4934432</data>
@@ -4765,44 +4400,9 @@
       <data key="d5">44.4888315</data>
       <data key="d6">3</data>
     </node>
-    <node id="3915249056">
-      <data key="d4">40.1956694</data>
-      <data key="d5">44.5370371</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="4043576972">
-      <data key="d4">40.1699217</data>
-      <data key="d5">44.4846023</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="4043623276">
-      <data key="d4">40.1695783</data>
-      <data key="d5">44.4849743</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="4043623277">
-      <data key="d4">40.1696407</data>
-      <data key="d5">44.48478</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="4043629092">
-      <data key="d4">40.1703203</data>
-      <data key="d5">44.484525</data>
-      <data key="d6">3</data>
-    </node>
     <node id="4044563145">
       <data key="d4">40.1691295</data>
       <data key="d5">44.4875469</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="4069873856">
-      <data key="d4">40.1629897</data>
-      <data key="d5">44.4852605</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="4069873881">
-      <data key="d4">40.1635447</data>
-      <data key="d5">44.4855859</data>
       <data key="d6">3</data>
     </node>
     <node id="4071865074">
@@ -4919,16 +4519,6 @@
     <node id="4227138143">
       <data key="d4">40.1769914</data>
       <data key="d5">44.5271143</data>
-      <data key="d6">4</data>
-    </node>
-    <node id="4230885913">
-      <data key="d4">40.1993863</data>
-      <data key="d5">44.5372636</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="4230885917">
-      <data key="d4">40.1999035</data>
-      <data key="d5">44.5400777</data>
       <data key="d6">4</data>
     </node>
     <node id="4234582615">
@@ -5052,16 +4642,6 @@
       <data key="d5">44.5232818</data>
       <data key="d6">1</data>
     </node>
-    <node id="4626071269">
-      <data key="d4">40.1583009</data>
-      <data key="d5">44.5112541</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="4626071274">
-      <data key="d4">40.157523</data>
-      <data key="d5">44.5109736</data>
-      <data key="d6">3</data>
-    </node>
     <node id="4662642229">
       <data key="d4">40.1794358</data>
       <data key="d5">44.518396</data>
@@ -5105,11 +4685,6 @@
     <node id="4685816051">
       <data key="d4">40.1742166</data>
       <data key="d5">44.500613</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="4687331782">
-      <data key="d4">40.1586031</data>
-      <data key="d5">44.5115146</data>
       <data key="d6">3</data>
     </node>
     <node id="4688983906">
@@ -5371,11 +4946,6 @@
       <data key="d5">44.5151273</data>
       <data key="d6">1</data>
     </node>
-    <node id="5240047772">
-      <data key="d4">40.1699646</data>
-      <data key="d5">44.4847331</data>
-      <data key="d6">3</data>
-    </node>
     <node id="5243206714">
       <data key="d4">40.190939</data>
       <data key="d5">44.5052148</data>
@@ -5465,16 +5035,6 @@
       <data key="d5">44.5121097</data>
       <data key="d7">traffic_signals</data>
       <data key="d6">4</data>
-    </node>
-    <node id="5514692680">
-      <data key="d4">40.1571526</data>
-      <data key="d5">44.5109917</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="5514706072">
-      <data key="d4">40.1555617</data>
-      <data key="d5">44.5104434</data>
-      <data key="d6">3</data>
     </node>
     <node id="5625911499">
       <data key="d4">40.1884388</data>
@@ -5721,11 +5281,6 @@
       <data key="d5">44.5036854</data>
       <data key="d6">3</data>
     </node>
-    <node id="6479010641">
-      <data key="d4">40.1707481</data>
-      <data key="d5">44.54193</data>
-      <data key="d6">3</data>
-    </node>
     <node id="6632862047">
       <data key="d4">40.1918415</data>
       <data key="d5">44.5255853</data>
@@ -5775,11 +5330,6 @@
       <data key="d4">40.1916099</data>
       <data key="d5">44.5306032</data>
       <data key="d6">3</data>
-    </node>
-    <node id="6952435619">
-      <data key="d4">40.2000011</data>
-      <data key="d5">44.5199246</data>
-      <data key="d6">1</data>
     </node>
     <node id="7135059639">
       <data key="d4">40.1921915</data>
@@ -5930,16 +5480,6 @@
       <data key="d4">40.1707641</data>
       <data key="d5">44.5128986</data>
       <data key="d6">3</data>
-    </node>
-    <node id="8372636331">
-      <data key="d4">40.1567449</data>
-      <data key="d5">44.5271403</data>
-      <data key="d6">1</data>
-    </node>
-    <node id="8372636341">
-      <data key="d4">40.1557522</data>
-      <data key="d5">44.5225339</data>
-      <data key="d6">1</data>
     </node>
     <node id="8758115784">
       <data key="d4">40.1973553</data>
@@ -6142,16 +5682,6 @@
       <data key="d5">44.5034491</data>
       <data key="d6">4</data>
     </node>
-    <node id="10804334925">
-      <data key="d4">40.1584647</data>
-      <data key="d5">44.488503</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="10804334927">
-      <data key="d4">40.1584258</data>
-      <data key="d5">44.4884703</data>
-      <data key="d6">1</data>
-    </node>
     <node id="10830016931">
       <data key="d4">40.1924212</data>
       <data key="d5">44.4837636</data>
@@ -6275,11 +5805,6 @@
       <data key="d7">traffic_signals</data>
       <data key="d6">3</data>
     </node>
-    <node id="10946185438">
-      <data key="d4">40.1997866</data>
-      <data key="d5">44.5079968</data>
-      <data key="d6">1</data>
-    </node>
     <node id="10968937424">
       <data key="d4">40.1832079</data>
       <data key="d5">44.5150104</data>
@@ -6321,11 +5846,6 @@
       <data key="d7">crossing</data>
       <data key="d6">3</data>
     </node>
-    <node id="11051778779">
-      <data key="d4">40.193304</data>
-      <data key="d5">44.5342034</data>
-      <data key="d6">3</data>
-    </node>
     <node id="11075377971">
       <data key="d4">40.1821428</data>
       <data key="d5">44.499395</data>
@@ -6364,11 +5884,6 @@
     <node id="11166281566">
       <data key="d4">40.1931581</data>
       <data key="d5">44.5250968</data>
-      <data key="d6">3</data>
-    </node>
-    <node id="11257435149">
-      <data key="d4">40.1994292</data>
-      <data key="d5">44.5201279</data>
       <data key="d6">3</data>
     </node>
     <node id="11302215231">
@@ -6757,11 +6272,6 @@
       <data key="d5">44.5009011</data>
       <data key="d6">4</data>
     </node>
-    <node id="11677572427">
-      <data key="d4">40.1566721</data>
-      <data key="d5">44.5192724</data>
-      <data key="d6">3</data>
-    </node>
     <node id="11760532254">
       <data key="d4">40.1650125</data>
       <data key="d5">44.5313665</data>
@@ -6841,11 +6351,6 @@
       <data key="d4">40.1972221</data>
       <data key="d5">44.5025741</data>
       <data key="d6">3</data>
-    </node>
-    <node id="12518335959">
-      <data key="d4">40.1573074</data>
-      <data key="d5">44.5081683</data>
-      <data key="d6">1</data>
     </node>
     <node id="12593950281">
       <data key="d4">40.1772054</data>
@@ -6946,16 +6451,6 @@
       <data key="d12">False</data>
       <data key="d13">90.62458230578784</data>
       <data key="d14">LINESTRING (44.5051271 40.1658739, 44.5049199 40.1655733, 44.5047037 40.1652404, 44.5046527 40.1651444)</data>
-    </edge>
-    <edge source="256031575" target="11257435149" id="0">
-      <data key="d8">119516091</data>
-      <data key="d9">primary</data>
-      <data key="d15">3</data>
-      <data key="d16">60</data>
-      <data key="d10">Ազատության պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">43.991699089899946</data>
     </edge>
     <edge source="256031575" target="1342686213" id="0">
       <data key="d8">380437047</data>
@@ -10133,46 +9628,6 @@
       <data key="d13">263.86541054647137</data>
       <data key="d14">LINESTRING (44.52344 40.1621123, 44.5238075 40.162638, 44.5245768 40.163429, 44.5246059 40.1634337, 44.5246428 40.1634255, 44.5246703 40.1634229, 44.5247073 40.1634205, 44.5247591 40.163442, 44.5247817 40.1634674, 44.524899 40.1635843, 44.5250994 40.1637219, 44.525355 40.1638616, 44.5253757 40.1638749)</data>
     </edge>
-    <edge source="310482033" target="310482040" id="0">
-      <data key="d8">28273364</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Մովսես Խորենացու փողոց</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">46.87331982002436</data>
-      <data key="d14">LINESTRING (44.5218377 40.1552293, 44.521458 40.1552972, 44.5213024 40.1553305)</data>
-    </edge>
-    <edge source="310482036" target="11677572427" id="0">
-      <data key="d8">28273364</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Մովսես Խորենացու փողոց</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">108.33627298212103</data>
-      <data key="d14">LINESTRING (44.5201019 40.1559333, 44.5200543 40.155964, 44.519506 40.1564518, 44.5193528 40.1565998, 44.5192724 40.1566721)</data>
-    </edge>
-    <edge source="310482038" target="310482036" id="0">
-      <data key="d8">28273364</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Մովսես Խորենացու փողոց</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">66.00434607075702</data>
-      <data key="d14">LINESTRING (44.5207023 40.1555573, 44.5206389 40.1555901, 44.5205556 40.1556394, 44.5201019 40.1559333)</data>
-    </edge>
-    <edge source="310482040" target="310482038" id="0">
-      <data key="d8">28273364</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Մովսես Խորենացու փողոց</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">56.910499811364716</data>
-      <data key="d14">LINESTRING (44.5213024 40.1553305, 44.5209662 40.1554509, 44.5207023 40.1555573)</data>
-    </edge>
     <edge source="310482042" target="2233375802" id="0">
       <data key="d8">48409987</data>
       <data key="d9">tertiary</data>
@@ -10253,94 +9708,6 @@
       <data key="d13">9.046385373210683</data>
       <data key="d14">LINESTRING (44.5209278 40.1585928, 44.5209736 40.1586119, 44.5210101 40.1586426)</data>
     </edge>
-    <edge source="310482275" target="310482280" id="0">
-      <data key="d8">28273389</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կորեացու փողոցի 4-րդ նրբ.</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">101.76203333903263</data>
-      <data key="d14">LINESTRING (44.5274803 40.1561101, 44.5273192 40.1560148, 44.5270707 40.1558769, 44.5268552 40.1557228, 44.5267647 40.1556414, 44.5266017 40.1554948)</data>
-    </edge>
-    <edge source="310482275" target="310482311" id="0">
-      <data key="d8">28273391</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մովսես Խորենացու փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">87.32340137831446</data>
-      <data key="d14">LINESTRING (44.5274803 40.1561101, 44.5273924 40.1562586, 44.5273317 40.1562637, 44.52714 40.1562233, 44.5268084 40.1561648, 44.5265944 40.1561627)</data>
-    </edge>
-    <edge source="310482275" target="310482325" id="0">
-      <data key="d8">[28273394, 984661427]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մովսես Խորենացու փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">[False, True]</data>
-      <data key="d13">219.357604390688</data>
-      <data key="d14">LINESTRING (44.5274803 40.1561101, 44.5277502 40.1561544, 44.5279898 40.1561665, 44.5281999 40.156155, 44.52842 40.1561082, 44.5284826 40.1563717, 44.528453 40.1564415, 44.5283191 40.1564529, 44.5278747 40.1564665, 44.5277321 40.1564865, 44.5277192 40.1568341)</data>
-    </edge>
-    <edge source="310482280" target="310482275" id="0">
-      <data key="d8">28273389</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կորեացու փողոցի 4-րդ նրբ.</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">101.76203333903263</data>
-      <data key="d14">LINESTRING (44.5266017 40.1554948, 44.5267647 40.1556414, 44.5268552 40.1557228, 44.5270707 40.1558769, 44.5273192 40.1560148, 44.5274803 40.1561101)</data>
-    </edge>
-    <edge source="310482280" target="310482290" id="0">
-      <data key="d8">213681074</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կորեացու փողոցի 4-րդ նրբ.</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">72.52102915717727</data>
-      <data key="d14">LINESTRING (44.5266017 40.1554948, 44.5265338 40.1555616, 44.5264967 40.1556222, 44.5263304 40.1561065)</data>
-    </edge>
-    <edge source="310482290" target="310482311" id="0">
-      <data key="d8">28273391</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մովսես Խորենացու փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">23.290155275091113</data>
-    </edge>
-    <edge source="310482290" target="310482399" id="0">
-      <data key="d8">1046509605</data>
-      <data key="d9">residential</data>
-      <data key="d10">Որմնադիրների փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">22.730021114480486</data>
-    </edge>
-    <edge source="310482290" target="310482280" id="0">
-      <data key="d8">213681074</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կորեացու փողոցի 4-րդ նրբ.</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">72.52102915717727</data>
-      <data key="d14">LINESTRING (44.5263304 40.1561065, 44.5264967 40.1556222, 44.5265338 40.1555616, 44.5266017 40.1554948)</data>
-    </edge>
-    <edge source="310482290" target="310482304" id="0">
-      <data key="d8">1046509605</data>
-      <data key="d9">residential</data>
-      <data key="d10">Որմնադիրների փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">151.45759856361371</data>
-      <data key="d14">LINESTRING (44.5263304 40.1561065, 44.5263105 40.1561814, 44.526246 40.1562221, 44.5261345 40.1562461, 44.5260314 40.1562589, 44.526015 40.1563543, 44.5258956 40.1566013, 44.5258761 40.1566466, 44.5257217 40.1565786, 44.5255563 40.156509, 44.5253434 40.1564363, 44.5251133 40.1563715)</data>
-    </edge>
-    <edge source="310482304" target="310482290" id="0">
-      <data key="d8">1046509605</data>
-      <data key="d9">residential</data>
-      <data key="d10">Որմնադիրների փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">151.4575985636137</data>
-      <data key="d14">LINESTRING (44.5251133 40.1563715, 44.5253434 40.1564363, 44.5255563 40.156509, 44.5257217 40.1565786, 44.5258761 40.1566466, 44.5258956 40.1566013, 44.526015 40.1563543, 44.5260314 40.1562589, 44.5261345 40.1562461, 44.526246 40.1562221, 44.5263105 40.1561814, 44.5263304 40.1561065)</data>
-    </edge>
     <edge source="310482307" target="2764957394" id="0">
       <data key="d8">28273398</data>
       <data key="d9">residential</data>
@@ -10349,120 +9716,6 @@
       <data key="d12">False</data>
       <data key="d13">155.70155820465297</data>
       <data key="d14">LINESTRING (44.5247869 40.1563786, 44.5245749 40.1563569, 44.524486 40.1563477, 44.5242975 40.1562795, 44.5243197 40.1562101, 44.5238153 40.1561323, 44.523589 40.1561132, 44.523225 40.1561227, 44.5231065 40.1561372)</data>
-    </edge>
-    <edge source="310482311" target="310482290" id="0">
-      <data key="d8">28273391</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մովսես Խորենացու փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">23.290155275091113</data>
-    </edge>
-    <edge source="310482311" target="310482275" id="0">
-      <data key="d8">28273391</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մովսես Խորենացու փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">87.32340137831447</data>
-      <data key="d14">LINESTRING (44.5265944 40.1561627, 44.5268084 40.1561648, 44.52714 40.1562233, 44.5273317 40.1562637, 44.5273924 40.1562586, 44.5274803 40.1561101)</data>
-    </edge>
-    <edge source="310482311" target="310482320" id="0">
-      <data key="d8">28273392</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կորեացու փողոցի 1-ին փակուղի</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">120.72390052222002</data>
-      <data key="d14">LINESTRING (44.5265944 40.1561627, 44.5265815 40.156341, 44.5266047 40.1564672, 44.5266038 40.1565996, 44.5266528 40.1567381, 44.5267331 40.1569058, 44.5268364 40.1570539, 44.5269678 40.1571751)</data>
-    </edge>
-    <edge source="310482311" target="8372636331" id="0">
-      <data key="d8">901278736</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">86.62331232568391</data>
-      <data key="d14">LINESTRING (44.5265944 40.1561627, 44.5269644 40.1563123, 44.5269982 40.1564649, 44.5270567 40.1565903, 44.5270667 40.156655, 44.5271403 40.1567449)</data>
-    </edge>
-    <edge source="310482320" target="310482323" id="0">
-      <data key="d8">28273393</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">24.3187849383619</data>
-    </edge>
-    <edge source="310482320" target="310482322" id="0">
-      <data key="d8">28273393</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">33.39247631639026</data>
-    </edge>
-    <edge source="310482320" target="310482311" id="0">
-      <data key="d8">28273392</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կորեացու փողոցի 1-ին փակուղի</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">120.72390052222006</data>
-      <data key="d14">LINESTRING (44.5269678 40.1571751, 44.5268364 40.1570539, 44.5267331 40.1569058, 44.5266528 40.1567381, 44.5266038 40.1565996, 44.5266047 40.1564672, 44.5265815 40.156341, 44.5265944 40.1561627)</data>
-    </edge>
-    <edge source="310482322" target="310482320" id="0">
-      <data key="d8">28273393</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">33.39247631639026</data>
-    </edge>
-    <edge source="310482323" target="310482320" id="0">
-      <data key="d8">28273393</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">24.3187849383619</data>
-    </edge>
-    <edge source="310482325" target="310482275" id="0">
-      <data key="d8">[28273394, 984661427]</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">[False, True]</data>
-      <data key="d13">219.357604390688</data>
-      <data key="d10">Մովսես Խորենացու փողոց</data>
-      <data key="d14">LINESTRING (44.5277192 40.1568341, 44.5277321 40.1564865, 44.5278747 40.1564665, 44.5283191 40.1564529, 44.528453 40.1564415, 44.5284826 40.1563717, 44.52842 40.1561082, 44.5281999 40.156155, 44.5279898 40.1561665, 44.5277502 40.1561544, 44.5274803 40.1561101)</data>
-    </edge>
-    <edge source="310482399" target="310482290" id="0">
-      <data key="d8">1046509605</data>
-      <data key="d9">residential</data>
-      <data key="d10">Որմնադիրների փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">22.730021114480486</data>
-    </edge>
-    <edge source="310482399" target="310482430" id="0">
-      <data key="d8">[28273400, 595593128]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Որմնադիրների 2-րդ նրբանցք</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">316.22486259576965</data>
-      <data key="d14">LINESTRING (44.5260794 40.1560359, 44.5258814 40.1560559, 44.5255242 40.1561368, 44.5254564 40.1561422, 44.5254269 40.1561237, 44.5254114 40.1560877, 44.5253969 40.1559804, 44.5253996 40.1559238, 44.5253982 40.1558641, 44.5253632 40.1557223, 44.5253382 40.1556865, 44.5253042 40.1556649, 44.5252027 40.1556687, 44.5251313 40.1556762, 44.5250821 40.1556763, 44.5250332 40.1556743, 44.524981 40.1556625, 44.5248979 40.1556547, 44.5248381 40.1556499, 44.524576 40.1556499, 44.5245047 40.1556516, 44.524436 40.1556311, 44.5242802 40.1556342, 44.5242115 40.1556428, 44.5240976 40.1556567, 44.5240796 40.1557075, 44.524032 40.1557328, 44.5235693 40.1556777, 44.52335 40.155661, 44.5232655 40.15562, 44.523185 40.1555965, 44.5230416 40.1555939, 44.5230185 40.1555601)</data>
-    </edge>
-    <edge source="310482430" target="310482399" id="0">
-      <data key="d8">[595593128, 28273400]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Որմնադիրների 2-րդ նրբանցք</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">316.2248625957697</data>
-      <data key="d14">LINESTRING (44.5230185 40.1555601, 44.5230416 40.1555939, 44.523185 40.1555965, 44.5232655 40.15562, 44.52335 40.155661, 44.5235693 40.1556777, 44.524032 40.1557328, 44.5240796 40.1557075, 44.5240976 40.1556567, 44.5242115 40.1556428, 44.5242802 40.1556342, 44.524436 40.1556311, 44.5245047 40.1556516, 44.524576 40.1556499, 44.5248381 40.1556499, 44.5248979 40.1556547, 44.524981 40.1556625, 44.5250332 40.1556743, 44.5250821 40.1556763, 44.5251313 40.1556762, 44.5252027 40.1556687, 44.5253042 40.1556649, 44.5253382 40.1556865, 44.5253632 40.1557223, 44.5253982 40.1558641, 44.5253996 40.1559238, 44.5253969 40.1559804, 44.5254114 40.1560877, 44.5254269 40.1561237, 44.5254564 40.1561422, 44.5255242 40.1561368, 44.5258814 40.1560559, 44.5260794 40.1560359)</data>
-    </edge>
-    <edge source="310482430" target="8372636341" id="0">
-      <data key="d8">901278739</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">46.65913704668337</data>
-      <data key="d14">LINESTRING (44.5230185 40.1555601, 44.5227613 40.1556369, 44.5225339 40.1557522)</data>
     </edge>
     <edge source="310482471" target="3554472318" id="0">
       <data key="d8">28273416</data>
@@ -12191,16 +11444,6 @@
       <data key="d13">91.48663093937498</data>
       <data key="d14">LINESTRING (44.4886505 40.1964215, 44.4884879 40.1965105, 44.4877751 40.1969009)</data>
     </edge>
-    <edge source="311039474" target="4230885917" id="0">
-      <data key="d8">944031317</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d16">40</data>
-      <data key="d10">Ավետիս Ահարոնյանի փողոց</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">11.229457264731726</data>
-    </edge>
     <edge source="311039601" target="331526303" id="0">
       <data key="d8">189391251</data>
       <data key="d9">tertiary</data>
@@ -12485,23 +11728,6 @@
       <data key="d12">True</data>
       <data key="d13">362.71428210392276</data>
       <data key="d14">LINESTRING (44.5398986 40.1707193, 44.5401614 40.1703799, 44.5405595 40.170024, 44.5410711 40.1697668, 44.5411061 40.1697492, 44.5415676 40.16945, 44.541605 40.1694049, 44.541487 40.1693106, 44.5407574 40.1688433, 44.5407092 40.168749, 44.5408111 40.1685892, 44.5408862 40.1684826, 44.5407539 40.1684081)</data>
-    </edge>
-    <edge source="331484815" target="6479010641" id="0">
-      <data key="d8">185715849</data>
-      <data key="d9">residential</data>
-      <data key="d10">Այծեմնիկ Ուրարտուի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">6.063251037674815</data>
-    </edge>
-    <edge source="331486185" target="6479010641" id="0">
-      <data key="d8">185715849</data>
-      <data key="d9">residential</data>
-      <data key="d10">Այծեմնիկ Ուրարտուի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">525.3463281645805</data>
-      <data key="d14">LINESTRING (44.5415722 40.1754014, 44.5415294 40.1750937, 44.5417646 40.1735812, 44.5421045 40.1713948, 44.5421357 40.1712454, 44.542128 40.1710396, 44.5420908 40.1709394, 44.5420039 40.1708125, 44.54193 40.1707481)</data>
     </edge>
     <edge source="331489198" target="2283469590" id="0">
       <data key="d8">30095865</data>
@@ -12893,15 +12119,6 @@
       <data key="d12">False</data>
       <data key="d13">198.9137310894234</data>
       <data key="d14">LINESTRING (44.5270143 40.1997654, 44.5282107 40.1993147, 44.5283173 40.1992745, 44.5283848 40.1992491, 44.5284867 40.1992107, 44.5289429 40.1989324, 44.5290339 40.1988769)</data>
-    </edge>
-    <edge source="331543959" target="2268700315" id="0">
-      <data key="d8">[217585555, 1187018022]</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">[False, True]</data>
-      <data key="d13">204.74212318894863</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 3-րդ նրբանցք</data>
-      <data key="d14">LINESTRING (44.5088862 40.15563, 44.5088964 40.1558129, 44.5088933 40.1559198, 44.5090438 40.1560139, 44.5090598 40.1566952, 44.5090563 40.1570154, 44.509034 40.1571081, 44.5090281 40.1572461, 44.5090369 40.1574147)</data>
     </edge>
     <edge source="331546026" target="287886959" id="0">
       <data key="d8">26282012</data>
@@ -13315,62 +12532,6 @@
       <data key="d12">True</data>
       <data key="d13">203.0079727562923</data>
       <data key="d14">LINESTRING (44.4923405 40.1687413, 44.4931269 40.1688167, 44.4933726 40.1688932, 44.4937242 40.1690668, 44.4938338 40.1691296, 44.4940728 40.1692664, 44.4942668 40.1693803, 44.4942473 40.1695573)</data>
-    </edge>
-    <edge source="331556512" target="1142241230" id="0">
-      <data key="d8">30100221</data>
-      <data key="d9">residential</data>
-      <data key="d10">Արագածի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">127.03027838216083</data>
-      <data key="d14">LINESTRING (44.4862577 40.1632953, 44.4858326 40.1625688, 44.4856475 40.1622524)</data>
-    </edge>
-    <edge source="331556512" target="1142241253" id="0">
-      <data key="d8">[404684354, 33770046]</data>
-      <data key="d9">residential</data>
-      <data key="d10">['Կողբի 2-րդ փողոց', 'Ղարիբջանյան փողոց']</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">362.6194121761032</data>
-      <data key="d14">LINESTRING (44.4862577 40.1632953, 44.4863839 40.1632484, 44.4869596 40.1630346, 44.486494 40.1622757, 44.4855628 40.1605935)</data>
-    </edge>
-    <edge source="331556512" target="4069873881" id="0">
-      <data key="d8">33770046</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կողբի 2-րդ փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">63.46794879551041</data>
-      <data key="d14">LINESTRING (44.4862577 40.1632953, 44.4859707 40.163404, 44.4855859 40.1635447)</data>
-    </edge>
-    <edge source="331556514" target="1431667620" id="0">
-      <data key="d8">804886124</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">4</data>
-      <data key="d16">60</data>
-      <data key="d10">Մայիսի 9-ի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">266.64513373336615</data>
-      <data key="d14">LINESTRING (44.4836851 40.1588881, 44.4840974 40.1585784, 44.4848953 40.1579607, 44.4849813 40.1578917, 44.4856006 40.1574168, 44.4858283 40.1572422, 44.4858987 40.1571887)</data>
-    </edge>
-    <edge source="331556514" target="1142241369" id="0">
-      <data key="d8">[33770059, 1332706420]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կողբ 1-ին փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">302.3688447183913</data>
-      <data key="d14">LINESTRING (44.4836851 40.1588881, 44.4836426 40.1589021, 44.4836053 40.1589267, 44.4831247 40.1591028, 44.4829819 40.1591433, 44.4840943 40.1610881)</data>
-    </edge>
-    <edge source="331556514" target="1142241198" id="0">
-      <data key="d8">1566571856</data>
-      <data key="d9">residential</data>
-      <data key="d10">Արագածի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">237.90146443858683</data>
-      <data key="d14">LINESTRING (44.4836851 40.1588881, 44.483706 40.1589348, 44.4837153 40.1589506, 44.4848226 40.1608428)</data>
     </edge>
     <edge source="353763437" target="406385089" id="0">
       <data key="d8">31619102</data>
@@ -13813,15 +12974,6 @@
       <data key="d13">297.35171209282487</data>
       <data key="d14">LINESTRING (44.5084211 40.1602477, 44.5097265 40.1602481, 44.5107047 40.1602327, 44.5117975 40.1602156, 44.5119195 40.1602098)</data>
     </edge>
-    <edge source="370166067" target="2342432612" id="0">
-      <data key="d8">32861831</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 1-ին փակուղի</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">65.31082765679673</data>
-      <data key="d14">LINESTRING (44.5084727 40.159371, 44.5087032 40.1593648, 44.509241 40.1593573)</data>
-    </edge>
     <edge source="372623327" target="872010945" id="0">
       <data key="d8">33046279</data>
       <data key="d9">residential</data>
@@ -13911,15 +13063,6 @@
       <data key="d13">176.95310206692454</data>
       <data key="d14">LINESTRING (44.5339313 40.1926934, 44.5339917 40.1925838, 44.5340064 40.1924557, 44.5339876 40.1923359, 44.5339233 40.1922047, 44.5338057 40.1920643, 44.5336248 40.1919724, 44.5334258 40.1918965, 44.5330575 40.1918032, 44.5326953 40.1917384)</data>
     </edge>
-    <edge source="374192189" target="11051778779" id="0">
-      <data key="d8">132997165</data>
-      <data key="d9">trunk_link</data>
-      <data key="d15">1</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">73.94917425288217</data>
-      <data key="d14">LINESTRING (44.5339313 40.1926934, 44.5339206 40.1928204, 44.5339219 40.1928789, 44.5339463 40.1929522, 44.533975 40.1930067, 44.5340324 40.1930799, 44.5341387 40.1932099, 44.5342034 40.193304)</data>
-    </edge>
     <edge source="386577725" target="2240176057" id="0">
       <data key="d8">1081001701</data>
       <data key="d9">residential</data>
@@ -13948,386 +13091,6 @@
       <data key="d12">True</data>
       <data key="d13">61.68023361269934</data>
       <data key="d14">LINESTRING (44.5010461 40.1559208, 44.5009066 40.1559725, 44.5005319 40.1561114, 44.5003931 40.1561629)</data>
-    </edge>
-    <edge source="386577776" target="386577915" id="0">
-      <data key="d8">33769959</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">71.80350627304</data>
-    </edge>
-    <edge source="386577776" target="386578506" id="0">
-      <data key="d8">33770011</data>
-      <data key="d9">residential</data>
-      <data key="d10">Օդեսսայի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">15.005928722664798</data>
-    </edge>
-    <edge source="386577776" target="386577917" id="0">
-      <data key="d8">33770011</data>
-      <data key="d9">residential</data>
-      <data key="d10">Օդեսսայի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">178.4436646062916</data>
-      <data key="d14">LINESTRING (44.4913183 40.1572278, 44.4894686 40.1574402, 44.4892419 40.1574664)</data>
-    </edge>
-    <edge source="386577832" target="386577833" id="0">
-      <data key="d8">33769964</data>
-      <data key="d9">residential</data>
-      <data key="d10">Պատկանյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">227.93091422494842</data>
-    </edge>
-    <edge source="386577832" target="386577914" id="0">
-      <data key="d8">33770021</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">61.735382150519065</data>
-    </edge>
-    <edge source="386577832" target="386578213" id="0">
-      <data key="d8">[33769960, 33770021]</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">[False, True]</data>
-      <data key="d13">338.98594938622296</data>
-      <data key="d10">Մուսայելյան փողոց</data>
-      <data key="d14">LINESTRING (44.492853 40.1559205, 44.4927605 40.1553308, 44.4927138 40.1553033, 44.4926619 40.1552926, 44.4895977 40.1556462)</data>
-    </edge>
-    <edge source="386577833" target="386577915" id="0">
-      <data key="d8">33769959</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">76.70890980122137</data>
-    </edge>
-    <edge source="386577833" target="386577832" id="0">
-      <data key="d8">33769964</data>
-      <data key="d9">residential</data>
-      <data key="d10">Պատկանյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">227.93091422494842</data>
-    </edge>
-    <edge source="386577833" target="386578213" id="0">
-      <data key="d8">33769959</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">80.21518679394903</data>
-      <data key="d14">LINESTRING (44.4901967 40.1562036, 44.4899549 40.1559701, 44.4895977 40.1556462)</data>
-    </edge>
-    <edge source="386577914" target="386577832" id="0">
-      <data key="d8">33770021</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">61.735382150519065</data>
-    </edge>
-    <edge source="386577914" target="386577915" id="0">
-      <data key="d8">33769976</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մադոյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">185.48888627261852</data>
-      <data key="d14">LINESTRING (44.4929284 40.1564727, 44.4927805 40.1564782, 44.4907737 40.1567341)</data>
-    </edge>
-    <edge source="386577914" target="386578506" id="0">
-      <data key="d8">[33770011, 989298367]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Օդեսսայի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">154.16383230216962</data>
-      <data key="d14">LINESTRING (44.4929284 40.1564727, 44.4921292 40.1571124, 44.4918391 40.1571933, 44.4914948 40.1572317)</data>
-    </edge>
-    <edge source="386577915" target="386577833" id="0">
-      <data key="d8">33769959</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">76.70890980122137</data>
-    </edge>
-    <edge source="386577915" target="386577776" id="0">
-      <data key="d8">33769959</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">71.80350627304</data>
-    </edge>
-    <edge source="386577915" target="386577917" id="0">
-      <data key="d8">33769976</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մադոյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">169.97986865536276</data>
-      <data key="d14">LINESTRING (44.4907737 40.1567341, 44.4900702 40.1568278, 44.4897473 40.1568664, 44.4896839 40.1568832, 44.4896382 40.156901, 44.4895996 40.156935, 44.4892419 40.1574664)</data>
-    </edge>
-    <edge source="386577915" target="386577914" id="0">
-      <data key="d8">33769976</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մադոյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">185.48888627261852</data>
-      <data key="d14">LINESTRING (44.4907737 40.1567341, 44.4927805 40.1564782, 44.4929284 40.1564727)</data>
-    </edge>
-    <edge source="386577917" target="386578207" id="0">
-      <data key="d8">33770011</data>
-      <data key="d9">residential</data>
-      <data key="d10">Օդեսսայի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">81.68540650228715</data>
-    </edge>
-    <edge source="386577917" target="386577915" id="0">
-      <data key="d8">33769976</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մադոյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">169.9798686553628</data>
-      <data key="d14">LINESTRING (44.4892419 40.1574664, 44.4895996 40.156935, 44.4896382 40.156901, 44.4896839 40.1568832, 44.4897473 40.1568664, 44.4900702 40.1568278, 44.4907737 40.1567341)</data>
-    </edge>
-    <edge source="386577917" target="386577776" id="0">
-      <data key="d8">33770011</data>
-      <data key="d9">residential</data>
-      <data key="d10">Օդեսսայի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">178.4436646062916</data>
-      <data key="d14">LINESTRING (44.4892419 40.1574664, 44.4894686 40.1574402, 44.4913183 40.1572278)</data>
-    </edge>
-    <edge source="386578201" target="10804334925" id="0">
-      <data key="d8">561319374</data>
-      <data key="d9">residential</data>
-      <data key="d10">Դոդոխյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">138.48749492567893</data>
-      <data key="d14">LINESTRING (44.4873529 40.159345, 44.4876315 40.159107, 44.4884036 40.1585217, 44.4884697 40.1584838, 44.488503 40.1584647)</data>
-    </edge>
-    <edge source="386578204" target="1983420633" id="0">
-      <data key="d8">989298366</data>
-      <data key="d9">residential</data>
-      <data key="d10">Օդեսսայի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">207.4270035893402</data>
-      <data key="d14">LINESTRING (44.4867669 40.1591912, 44.4868204 40.1590907, 44.4868712 40.1589981, 44.4871324 40.1586487, 44.4873181 40.1585235, 44.4874328 40.1584408, 44.4875616 40.1583595, 44.487983 40.1580604, 44.488206 40.1579266, 44.4884059 40.1578775)</data>
-    </edge>
-    <edge source="386578207" target="386577917" id="0">
-      <data key="d8">33770011</data>
-      <data key="d9">residential</data>
-      <data key="d10">Օդեսսայի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">81.68540650228715</data>
-    </edge>
-    <edge source="386578207" target="1983420633" id="0">
-      <data key="d8">989817893</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մուսայելյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">20.748600441827143</data>
-    </edge>
-    <edge source="386578207" target="386578213" id="0">
-      <data key="d8">33769982</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մուսայելյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">254.8959927796468</data>
-      <data key="d14">LINESTRING (44.4883306 40.1577, 44.4883081 40.157609, 44.488338 40.157507, 44.4885254 40.1572159, 44.4895977 40.1556462)</data>
-    </edge>
-    <edge source="386578213" target="386577833" id="0">
-      <data key="d8">33769959</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">80.21518679394903</data>
-      <data key="d14">LINESTRING (44.4895977 40.1556462, 44.4899549 40.1559701, 44.4901967 40.1562036)</data>
-    </edge>
-    <edge source="386578213" target="386577832" id="0">
-      <data key="d8">[33769960, 33770021]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մուսայելյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">[False, True]</data>
-      <data key="d13">338.985949386223</data>
-      <data key="d14">LINESTRING (44.4895977 40.1556462, 44.4926619 40.1552926, 44.4927138 40.1553033, 44.4927605 40.1553308, 44.492853 40.1559205)</data>
-    </edge>
-    <edge source="386578213" target="386578207" id="0">
-      <data key="d8">33769982</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մուսայելյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">254.89599277964683</data>
-      <data key="d14">LINESTRING (44.4895977 40.1556462, 44.4885254 40.1572159, 44.488338 40.157507, 44.4883081 40.157609, 44.4883306 40.1577)</data>
-    </edge>
-    <edge source="386578362" target="1142241253" id="0">
-      <data key="d8">404684354</data>
-      <data key="d9">residential</data>
-      <data key="d10">Ղարիբջանյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">127.3145449090786</data>
-    </edge>
-    <edge source="386578362" target="386578447" id="0">
-      <data key="d8">[404684354, 33770006]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Ղարիբջանյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">286.40994081104554</data>
-      <data key="d14">LINESTRING (44.4849538 40.1595474, 44.4846457 40.1590937, 44.4846176 40.1590425, 44.484631 40.1589841, 44.485454 40.1583591, 44.4864182 40.1576294, 44.4864421 40.1576109)</data>
-    </edge>
-    <edge source="386578362" target="1431667625" id="0">
-      <data key="d8">1558040776</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կոտովսկու փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">241.67641033307507</data>
-      <data key="d14">LINESTRING (44.4849538 40.1595474, 44.4869355 40.1580437, 44.4869699 40.1580146)</data>
-    </edge>
-    <edge source="386578447" target="1431667625" id="0">
-      <data key="d8">129823297</data>
-      <data key="d9">residential</data>
-      <data key="d15">2</data>
-      <data key="d10">Չեխովի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">63.45829963190899</data>
-    </edge>
-    <edge source="386578447" target="386578448" id="0">
-      <data key="d8">33770006</data>
-      <data key="d9">residential</data>
-      <data key="d10">Ղարիբջանյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">151.06757017009753</data>
-      <data key="d14">LINESTRING (44.4864421 40.1576109, 44.4876239 40.1567335, 44.4876804 40.1567107, 44.4877464 40.1567078)</data>
-    </edge>
-    <edge source="386578447" target="386578362" id="0">
-      <data key="d8">[404684354, 33770006]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Ղարիբջանյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">286.40994081104554</data>
-      <data key="d14">LINESTRING (44.4864421 40.1576109, 44.4864182 40.1576294, 44.485454 40.1583591, 44.484631 40.1589841, 44.4846176 40.1590425, 44.4846457 40.1590937, 44.4849538 40.1595474)</data>
-    </edge>
-    <edge source="386578447" target="1431667620" id="0">
-      <data key="d8">129823297</data>
-      <data key="d9">residential</data>
-      <data key="d15">2</data>
-      <data key="d10">Չեխովի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">65.85308559334855</data>
-      <data key="d14">LINESTRING (44.4864421 40.1576109, 44.4859582 40.1572341, 44.4858987 40.1571887)</data>
-    </edge>
-    <edge source="386578448" target="386578447" id="0">
-      <data key="d8">33770006</data>
-      <data key="d9">residential</data>
-      <data key="d10">Ղարիբջանյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">151.06757017009753</data>
-      <data key="d14">LINESTRING (44.4877464 40.1567078, 44.4876804 40.1567107, 44.4876239 40.1567335, 44.4864421 40.1576109)</data>
-    </edge>
-    <edge source="386578505" target="1983420615" id="0">
-      <data key="d8">561319376</data>
-      <data key="d9">residential</data>
-      <data key="d10">Դոդոխյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">61.71904985933273</data>
-    </edge>
-    <edge source="386578505" target="1983420640" id="0">
-      <data key="d8">33770008</data>
-      <data key="d9">residential</data>
-      <data key="d10">Դոդոխյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">270.4401632407894</data>
-      <data key="d14">LINESTRING (44.491627 40.1579784, 44.489769 40.1581232, 44.4888375 40.1583371, 44.4885289 40.1584498)</data>
-    </edge>
-    <edge source="386578505" target="1983420640" id="1">
-      <data key="d8">[33770018, 533258771, 561319375]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Հրազդան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">352.18280097405056</data>
-      <data key="d14">LINESTRING (44.491627 40.1579784, 44.4916402 40.1581676, 44.4916961 40.1584031, 44.4916875 40.158455, 44.4916662 40.1584988, 44.491641 40.1585178, 44.4916007 40.1585313, 44.4915419 40.1585358, 44.4903855 40.1586502, 44.4901177 40.1586767, 44.4895725 40.1587823, 44.489144 40.1588652, 44.4890949 40.1588693, 44.4890418 40.1588671, 44.4889924 40.1588546, 44.4889471 40.1588358, 44.4888904 40.1588094, 44.4888315 40.1587783, 44.4887875 40.15875, 44.488731 40.1587052, 44.4886714 40.1586467, 44.48863 40.1585881, 44.4885289 40.1584498)</data>
-    </edge>
-    <edge source="386578506" target="386577776" id="0">
-      <data key="d8">33770011</data>
-      <data key="d9">residential</data>
-      <data key="d10">Օդեսսայի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">15.005928722664798</data>
-    </edge>
-    <edge source="386578506" target="1983420615" id="0">
-      <data key="d8">561319376</data>
-      <data key="d9">residential</data>
-      <data key="d10">Դոդոխյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">22.14720999323023</data>
-    </edge>
-    <edge source="386578506" target="386577914" id="0">
-      <data key="d8">[33770011, 989298367]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Օդեսսայի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">154.16383230216962</data>
-      <data key="d14">LINESTRING (44.4914948 40.1572317, 44.4918391 40.1571933, 44.4921292 40.1571124, 44.4929284 40.1564727)</data>
-    </edge>
-    <edge source="386579127" target="1142241369" id="0">
-      <data key="d8">33770059</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կողբ 1-ին փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">82.03360865240116</data>
-    </edge>
-    <edge source="386579127" target="1142241332" id="0">
-      <data key="d8">98736088</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">68.33147053976762</data>
-    </edge>
-    <edge source="386579127" target="1142241230" id="0">
-      <data key="d8">[98736098, 1332706419]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կողբ 1-ին փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">165.35202357218446</data>
-      <data key="d14">LINESTRING (44.4844809 40.1617641, 44.4848565 40.1625329, 44.4856475 40.1622524)</data>
-    </edge>
-    <edge source="386579205" target="1535109557" id="0">
-      <data key="d8">804886123</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Չեխովի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">90.51013966596801</data>
-      <data key="d14">LINESTRING (44.484016 40.1557396, 44.4840772 40.1557865, 44.4842135 40.1558908, 44.4847668 40.1563169)</data>
     </edge>
     <edge source="387636479" target="11093843459" id="0">
       <data key="d8">[28321326, 135473583]</data>
@@ -15505,17 +14268,6 @@
       <data key="d13">297.35171209282487</data>
       <data key="d14">LINESTRING (44.5119195 40.1602098, 44.5117975 40.1602156, 44.5107047 40.1602327, 44.5097265 40.1602481, 44.5084211 40.1602477)</data>
     </edge>
-    <edge source="406386253" target="1874021519" id="0">
-      <data key="d8">537777047</data>
-      <data key="d9">primary</data>
-      <data key="d15">3</data>
-      <data key="d16">60</data>
-      <data key="d10">Տիգրան Մեծի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">107.85746715209366</data>
-      <data key="d14">LINESTRING (44.5119195 40.1602098, 44.5118773 40.1600837, 44.5117698 40.1597971, 44.5115927 40.1592726)</data>
-    </edge>
     <edge source="406386255" target="632031877" id="0">
       <data key="d8">[186129404, 1441698444]</data>
       <data key="d9">primary</data>
@@ -15608,15 +14360,6 @@
       <data key="d12">False</data>
       <data key="d13">147.93865024255322</data>
       <data key="d14">LINESTRING (44.5151551 40.1893944, 44.5151064 40.1893948, 44.514376 40.1893988, 44.5141686 40.1894011, 44.5135732 40.1893774, 44.5135497 40.1893765, 44.5134147 40.1893693)</data>
-    </edge>
-    <edge source="406387626" target="331543959" id="0">
-      <data key="d8">30099343</data>
-      <data key="d9">residential</data>
-      <data key="d11">True</data>
-      <data key="d17">12</data>
-      <data key="d12">False</data>
-      <data key="d13">117.69079436669543</data>
-      <data key="d14">LINESTRING (44.5102696 40.1555846, 44.5100547 40.1555874, 44.5092756 40.1556171, 44.5091071 40.1556253, 44.5088862 40.15563)</data>
     </edge>
     <edge source="406387627" target="311005892" id="0">
       <data key="d8">28321280</data>
@@ -16198,17 +14941,6 @@
       <data key="d13">543.7768938344101</data>
       <data key="d14">LINESTRING (44.5311355 40.1793423, 44.5308749 40.1790664, 44.5304136 40.1787683, 44.5294542 40.1781978, 44.5290891 40.1778636, 44.5287833 40.1774843, 44.5286256 40.1770931, 44.5286141 40.1770669, 44.5285624 40.1768947, 44.5285164 40.1765916, 44.5285002 40.1762203, 44.5284843 40.1758563, 44.5284813 40.1753144, 44.5284903 40.1752323)</data>
     </edge>
-    <edge source="612586210" target="311039474" id="0">
-      <data key="d8">288103374</data>
-      <data key="d9">primary</data>
-      <data key="d15">3</data>
-      <data key="d16">40</data>
-      <data key="d10">Ռուբինյանց փողոց</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">230.27555975384882</data>
-      <data key="d14">LINESTRING (44.5376193 40.199096, 44.5377122 40.1990948, 44.5378165 40.1991142, 44.5379104 40.1991339, 44.5380849 40.1991866, 44.5387431 40.1993815, 44.5394254 40.199589, 44.5401509 40.1998194)</data>
-    </edge>
     <edge source="612586210" target="2263334080" id="0">
       <data key="d8">303762279</data>
       <data key="d9">residential</data>
@@ -16217,16 +14949,6 @@
       <data key="d12">False</data>
       <data key="d13">277.626081850817</data>
       <data key="d14">LINESTRING (44.5376193 40.199096, 44.5376731 40.1990522, 44.5376943 40.1990284, 44.5378678 40.1988338, 44.5379634 40.1987267, 44.5383376 40.1986012, 44.5395981 40.198581, 44.5406009 40.1985294)</data>
-    </edge>
-    <edge source="612586242" target="4230885913" id="0">
-      <data key="d8">190586988</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Դրոյի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">52.70057788063606</data>
-      <data key="d14">LINESTRING (44.5376789 40.1997384, 44.5374086 40.1995121, 44.5373683 40.1994787, 44.5372636 40.1993863)</data>
     </edge>
     <edge source="613400377" target="613400379" id="0">
       <data key="d8">48275231</data>
@@ -16836,24 +15558,6 @@
       <data key="d12">True</data>
       <data key="d13">122.43912297181048</data>
     </edge>
-    <edge source="633438785" target="633438785" id="0">
-      <data key="d8">[796491033, 49854356]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Արամ Չոլագյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">534.7621020157487</data>
-      <data key="d14">LINESTRING (44.5263867 40.1987741, 44.5271364 40.1984659, 44.5271724 40.1984198, 44.5272002 40.1982923, 44.5267773 40.197908, 44.5267214 40.1978577, 44.5262626 40.1980242, 44.5259819 40.198126, 44.5259186 40.198149, 44.5258453 40.1981756, 44.5247471 40.1985741, 44.5247197 40.1987016, 44.525102 40.1991255, 44.5251476 40.1991678, 44.5253069 40.1991766, 44.5262859 40.1988113, 44.5263867 40.1987741)</data>
-    </edge>
-    <edge source="633438785" target="633438785" id="1">
-      <data key="d8">[796491033, 49854356]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Արամ Չոլագյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">534.7621020157486</data>
-      <data key="d14">LINESTRING (44.5263867 40.1987741, 44.5262859 40.1988113, 44.5253069 40.1991766, 44.5251476 40.1991678, 44.525102 40.1991255, 44.5247197 40.1987016, 44.5247471 40.1985741, 44.5258453 40.1981756, 44.5259186 40.198149, 44.5259819 40.198126, 44.5262626 40.1980242, 44.5267214 40.1978577, 44.5267773 40.197908, 44.5272002 40.1982923, 44.5271724 40.1984198, 44.5271364 40.1984659, 44.5263867 40.1987741)</data>
-    </edge>
     <edge source="633438795" target="331526303" id="0">
       <data key="d8">189391251</data>
       <data key="d9">tertiary</data>
@@ -17272,18 +15976,6 @@
       <data key="d12">False</data>
       <data key="d13">55.50861455728661</data>
       <data key="d14">LINESTRING (44.5333399 40.1927917, 44.5335209 40.1928051, 44.5335853 40.1928092, 44.5336644 40.1928112, 44.5337382 40.1928092, 44.5338052 40.1927938, 44.5338589 40.1927651, 44.5339313 40.1926934)</data>
-    </edge>
-    <edge source="726602905" target="11051778779" id="0">
-      <data key="d8">142279471</data>
-      <data key="d9">trunk</data>
-      <data key="d15">3</data>
-      <data key="d16">60</data>
-      <data key="d10">Մյասնիկյանի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d20">Մ-4</data>
-      <data key="d12">False</data>
-      <data key="d13">93.47622016103107</data>
-      <data key="d14">LINESTRING (44.5333399 40.1927917, 44.5335317 40.1928686, 44.5337932 40.1930059, 44.5339662 40.1931206, 44.5342034 40.193304)</data>
     </edge>
     <edge source="745204355" target="12349637617" id="0">
       <data key="d8">26716985</data>
@@ -17820,143 +16512,6 @@
       <data key="d13">141.09095527297862</data>
       <data key="d14">LINESTRING (44.526822 40.1736098, 44.526802 40.1736896, 44.5267961 40.1737895, 44.5267957 40.1739393, 44.5268027 40.1740594, 44.5268174 40.1741483, 44.5268449 40.1742354, 44.5268557 40.1742697, 44.526886 40.1743631, 44.527051 40.174809, 44.5270648 40.1748512)</data>
     </edge>
-    <edge source="1142241198" target="1142241332" id="0">
-      <data key="d8">30100221</data>
-      <data key="d9">residential</data>
-      <data key="d10">Արագածի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">80.73244064706404</data>
-    </edge>
-    <edge source="1142241198" target="1142241369" id="0">
-      <data key="d8">98736091</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">67.63436856079123</data>
-    </edge>
-    <edge source="1142241198" target="1142241253" id="0">
-      <data key="d8">98736091</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">68.73932318203973</data>
-    </edge>
-    <edge source="1142241198" target="331556514" id="0">
-      <data key="d8">1566571856</data>
-      <data key="d9">residential</data>
-      <data key="d10">Արագածի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">237.90146443858683</data>
-      <data key="d14">LINESTRING (44.4848226 40.1608428, 44.4837153 40.1589506, 44.483706 40.1589348, 44.4836851 40.1588881)</data>
-    </edge>
-    <edge source="1142241230" target="1142241332" id="0">
-      <data key="d8">30100221</data>
-      <data key="d9">residential</data>
-      <data key="d10">Արագածի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">90.96919250820173</data>
-    </edge>
-    <edge source="1142241230" target="331556512" id="0">
-      <data key="d8">30100221</data>
-      <data key="d9">residential</data>
-      <data key="d10">Արագածի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">127.03027838216083</data>
-      <data key="d14">LINESTRING (44.4856475 40.1622524, 44.4858326 40.1625688, 44.4862577 40.1632953)</data>
-    </edge>
-    <edge source="1142241230" target="386579127" id="0">
-      <data key="d8">[98736098, 1332706419]</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">165.35202357218446</data>
-      <data key="d10">Կողբ 1-ին փողոց</data>
-      <data key="d14">LINESTRING (44.4856475 40.1622524, 44.4848565 40.1625329, 44.4844809 40.1617641)</data>
-    </edge>
-    <edge source="1142241253" target="1142241198" id="0">
-      <data key="d8">98736091</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">68.73932318203973</data>
-    </edge>
-    <edge source="1142241253" target="386578362" id="0">
-      <data key="d8">404684354</data>
-      <data key="d9">residential</data>
-      <data key="d10">Ղարիբջանյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">127.3145449090786</data>
-    </edge>
-    <edge source="1142241253" target="331556512" id="0">
-      <data key="d8">[404684354, 33770046]</data>
-      <data key="d9">residential</data>
-      <data key="d10">['Կողբի 2-րդ փողոց', 'Ղարիբջանյան փողոց']</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">362.61941217610325</data>
-      <data key="d14">LINESTRING (44.4855628 40.1605935, 44.486494 40.1622757, 44.4869596 40.1630346, 44.4863839 40.1632484, 44.4862577 40.1632953)</data>
-    </edge>
-    <edge source="1142241332" target="1142241198" id="0">
-      <data key="d8">30100221</data>
-      <data key="d9">residential</data>
-      <data key="d10">Արագածի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">80.73244064706404</data>
-    </edge>
-    <edge source="1142241332" target="1142241230" id="0">
-      <data key="d8">30100221</data>
-      <data key="d9">residential</data>
-      <data key="d10">Արագածի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">90.96919250820173</data>
-    </edge>
-    <edge source="1142241332" target="386579127" id="0">
-      <data key="d8">98736088</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">68.33147053976762</data>
-    </edge>
-    <edge source="1142241367" target="4069873881" id="0">
-      <data key="d8">[33770046, 1332706415]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կողբի 2-րդ փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">181.09011596749895</data>
-      <data key="d14">LINESTRING (44.4843228 40.1628794, 44.4848706 40.1638104, 44.4855859 40.1635447)</data>
-    </edge>
-    <edge source="1142241369" target="386579127" id="0">
-      <data key="d8">33770059</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կողբ 1-ին փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">82.03360865240116</data>
-    </edge>
-    <edge source="1142241369" target="1142241198" id="0">
-      <data key="d8">98736091</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">67.63436856079123</data>
-    </edge>
-    <edge source="1142241369" target="331556514" id="0">
-      <data key="d8">[33770059, 1332706420]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կողբ 1-ին փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">302.3688447183913</data>
-      <data key="d14">LINESTRING (44.4840943 40.1610881, 44.4829819 40.1591433, 44.4831247 40.1591028, 44.4836053 40.1589267, 44.4836426 40.1589021, 44.4836851 40.1588881)</data>
-    </edge>
     <edge source="1327730699" target="1970138516" id="0">
       <data key="d8">[744216944, 218924967, 1148880934, 1148880935]</data>
       <data key="d9">residential</data>
@@ -18001,29 +16556,6 @@
       <data key="d13">125.06503736729692</data>
       <data key="d14">LINESTRING (44.4973298 40.1982487, 44.4979063 40.1974151, 44.4980176 40.1972542)</data>
     </edge>
-    <edge source="1327731502" target="3036483995" id="0">
-      <data key="d8">245213221</data>
-      <data key="d9">primary</data>
-      <data key="d15">2</data>
-      <data key="d16">60</data>
-      <data key="d10">Վազգեն I փողոց</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">112.81336364583588</data>
-      <data key="d14">LINESTRING (44.4934256 40.1991091, 44.4933012 40.1989561, 44.4930145 40.1983564, 44.4929308 40.1981711)</data>
-    </edge>
-    <edge source="1327731502" target="3828228957" id="0">
-      <data key="d8">[380344436, 1190153545, 1190153548, 379149077]</data>
-      <data key="d9">primary</data>
-      <data key="d15">2</data>
-      <data key="d16">60</data>
-      <data key="d10">['Մարշալ Բաղրամյան պողոտա', 'Վազգեն I փողոց']</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">271.045788416287</data>
-      <data key="d18">yes</data>
-      <data key="d14">LINESTRING (44.4934256 40.1991091, 44.4933483 40.1989269, 44.4931593 40.1985073, 44.4930675 40.1983036, 44.4930469 40.1982432, 44.4930325 40.198175, 44.4930321 40.198108, 44.4930342 40.1980297, 44.493039 40.1979828, 44.4930433 40.197925, 44.4930673 40.1978113, 44.4931272 40.1975598, 44.4931678 40.197429, 44.4933758 40.1969061, 44.4934432 40.1967616)</data>
-    </edge>
     <edge source="1327731602" target="1970138516" id="0">
       <data key="d8">25919007</data>
       <data key="d9">tertiary</data>
@@ -18067,24 +16599,6 @@
       <data key="d12">False</data>
       <data key="d13">341.33090229304634</data>
       <data key="d14">LINESTRING (44.4980176 40.1972542, 44.4983714 40.1973953, 44.4985014 40.1974501, 44.5008582 40.198408, 44.5013501 40.1986037, 44.5014243 40.1986326, 44.5015707 40.1986884)</data>
-    </edge>
-    <edge source="1327798871" target="1327798871" id="0">
-      <data key="d8">117960796</data>
-      <data key="d9">residential</data>
-      <data key="d10">Սուրբ Աբգարի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">280.7429149581832</data>
-      <data key="d14">LINESTRING (44.4955961 40.1918102, 44.4953001 40.1917474, 44.4944493 40.1910701, 44.4944829 40.1910031, 44.4945852 40.1909851, 44.4950379 40.1911419, 44.4954557 40.1914487, 44.4955961 40.1918102)</data>
-    </edge>
-    <edge source="1327798871" target="1327798871" id="1">
-      <data key="d8">117960796</data>
-      <data key="d9">residential</data>
-      <data key="d10">Սուրբ Աբգարի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">280.74291495818323</data>
-      <data key="d14">LINESTRING (44.4955961 40.1918102, 44.4954557 40.1914487, 44.4950379 40.1911419, 44.4945852 40.1909851, 44.4944829 40.1910031, 44.4944493 40.1910701, 44.4953001 40.1917474, 44.4955961 40.1918102)</data>
     </edge>
     <edge source="1327798871" target="311003158" id="0">
       <data key="d8">1354922848</data>
@@ -18383,55 +16897,6 @@
       <data key="d11">True</data>
       <data key="d12">False</data>
       <data key="d13">17.77224889309941</data>
-    </edge>
-    <edge source="1431667620" target="386578447" id="0">
-      <data key="d8">129823297</data>
-      <data key="d9">residential</data>
-      <data key="d15">2</data>
-      <data key="d10">Չեխովի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">65.85308559334855</data>
-      <data key="d14">LINESTRING (44.4858987 40.1571887, 44.4859582 40.1572341, 44.4864421 40.1576109)</data>
-    </edge>
-    <edge source="1431667620" target="2365359011" id="0">
-      <data key="d8">804886123</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Չեխովի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">65.4174206952826</data>
-      <data key="d14">LINESTRING (44.4858987 40.1571887, 44.4858287 40.1571348, 44.4857189 40.1570502, 44.4853565 40.1567711)</data>
-    </edge>
-    <edge source="1431667620" target="331556514" id="0">
-      <data key="d8">804886124</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">4</data>
-      <data key="d16">60</data>
-      <data key="d10">Մայիսի 9-ի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">266.64513373336615</data>
-      <data key="d14">LINESTRING (44.4858987 40.1571887, 44.4858283 40.1572422, 44.4856006 40.1574168, 44.4849813 40.1578917, 44.4848953 40.1579607, 44.4840974 40.1585784, 44.4836851 40.1588881)</data>
-    </edge>
-    <edge source="1431667625" target="386578447" id="0">
-      <data key="d8">129823297</data>
-      <data key="d9">residential</data>
-      <data key="d15">2</data>
-      <data key="d10">Չեխովի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">63.45829963190899</data>
-    </edge>
-    <edge source="1431667625" target="386578362" id="0">
-      <data key="d8">1558040776</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կոտովսկու փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">241.67641033307507</data>
-      <data key="d14">LINESTRING (44.4869699 40.1580146, 44.4869355 40.1580437, 44.4849538 40.1595474)</data>
     </edge>
     <edge source="1446420597" target="14184886660" id="0">
       <data key="d8">[33874845, 533132439]</data>
@@ -19046,17 +17511,6 @@
       <data key="d15">2</data>
       <data key="d14">LINESTRING (44.5071038 40.1685605, 44.5072063 40.1685191, 44.5074672 40.1684144, 44.5077344 40.1683072, 44.5077896 40.168285, 44.5078451 40.1682627, 44.5080657 40.1681742, 44.5082371 40.1681054, 44.508295 40.1680587, 44.5083444 40.1679884, 44.5083613 40.1678768, 44.5083621 40.1678143, 44.5083678 40.1673623, 44.5083252 40.1666891, 44.5082958 40.165777, 44.5082894 40.1655782, 44.5082232 40.1642595, 44.5081631 40.1633191, 44.508156 40.1632126)</data>
     </edge>
-    <edge source="1475774835" target="2240176056" id="0">
-      <data key="d8">[134193873, 430010195]</data>
-      <data key="d9">primary</data>
-      <data key="d15">4</data>
-      <data key="d16">60</data>
-      <data key="d10">Արշակունյաց պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">137.39559703988363</data>
-      <data key="d14">LINESTRING (44.5009156 40.1554592, 44.5011888 40.1558226, 44.5014781 40.1563495, 44.5015575 40.1564941, 44.5016022 40.1565755)</data>
-    </edge>
     <edge source="1475774857" target="287885105" id="0">
       <data key="d8">[33806282, 1463376599]</data>
       <data key="d9">tertiary</data>
@@ -19179,26 +17633,6 @@
       <data key="d11">False</data>
       <data key="d12">True</data>
       <data key="d13">35.18450123519367</data>
-    </edge>
-    <edge source="1535109557" target="386579205" id="0">
-      <data key="d8">804886123</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Չեխովի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">90.51013966596801</data>
-      <data key="d14">LINESTRING (44.4847668 40.1563169, 44.4842135 40.1558908, 44.4840772 40.1557865, 44.484016 40.1557396)</data>
-    </edge>
-    <edge source="1535109557" target="2365359011" id="0">
-      <data key="d8">804886123</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Չեխովի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">71.14984974911266</data>
-      <data key="d14">LINESTRING (44.4847668 40.1563169, 44.4850973 40.1565714, 44.4852632 40.1566992, 44.4853565 40.1567711)</data>
     </edge>
     <edge source="1662998868" target="632049250" id="0">
       <data key="d8">132997167</data>
@@ -20450,25 +18884,6 @@
       <data key="d13">148.8881335187779</data>
       <data key="d14">LINESTRING (44.5391483 40.1621377, 44.5393204 40.1620432, 44.5394518 40.1619669, 44.5396069 40.1618625, 44.539781 40.1617217, 44.5399224 40.1615862, 44.5400362 40.161423, 44.5401257 40.1612824, 44.5401733 40.1611766, 44.5402043 40.1611078)</data>
     </edge>
-    <edge source="1874021519" target="4626071269" id="0">
-      <data key="d8">537777047</data>
-      <data key="d9">primary</data>
-      <data key="d15">3</data>
-      <data key="d16">60</data>
-      <data key="d10">Տիգրան Մեծի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">111.81422824213537</data>
-    </edge>
-    <edge source="1874021519" target="2342432612" id="0">
-      <data key="d8">32861831</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 1-ին փակուղի</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">200.49274475368057</data>
-      <data key="d14">LINESTRING (44.5115927 40.1592726, 44.5114785 40.1592915, 44.511323 40.1593181, 44.5111647 40.1593284, 44.5107476 40.1593397, 44.5103197 40.1593423, 44.5098567 40.1593521, 44.509241 40.1593573)</data>
-    </edge>
     <edge source="1882920476" target="331556002" id="0">
       <data key="d8">33874240</data>
       <data key="d9">residential</data>
@@ -21718,83 +20133,6 @@
       <data key="d13">193.84169727463205</data>
       <data key="d14">LINESTRING (44.5168107 40.1626437, 44.5170059 40.1623279, 44.5170335 40.1623002, 44.5170793 40.1622872, 44.5177222 40.162214, 44.5181331 40.1621668, 44.5184514 40.1621001, 44.5187754 40.1621624)</data>
     </edge>
-    <edge source="1983420615" target="386578506" id="0">
-      <data key="d8">561319376</data>
-      <data key="d9">residential</data>
-      <data key="d10">Դոդոխյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">22.14720999323023</data>
-    </edge>
-    <edge source="1983420615" target="386578505" id="0">
-      <data key="d8">561319376</data>
-      <data key="d9">residential</data>
-      <data key="d10">Դոդոխյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">61.71904985933273</data>
-    </edge>
-    <edge source="1983420615" target="1983420633" id="0">
-      <data key="d8">187712906</data>
-      <data key="d9">residential</data>
-      <data key="d10">Օդեսսայի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">272.62942847922005</data>
-      <data key="d14">LINESTRING (44.4915485 40.1574266, 44.4895323 40.1576186, 44.488496 40.1578562, 44.4884059 40.1578775)</data>
-    </edge>
-    <edge source="1983420633" target="386578207" id="0">
-      <data key="d8">989817893</data>
-      <data key="d9">residential</data>
-      <data key="d10">Մուսայելյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">20.748600441827143</data>
-    </edge>
-    <edge source="1983420633" target="1983420615" id="0">
-      <data key="d8">187712906</data>
-      <data key="d9">residential</data>
-      <data key="d10">Օդեսսայի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">272.62942847922005</data>
-      <data key="d14">LINESTRING (44.4884059 40.1578775, 44.488496 40.1578562, 44.4895323 40.1576186, 44.4915485 40.1574266)</data>
-    </edge>
-    <edge source="1983420633" target="386578204" id="0">
-      <data key="d8">989298366</data>
-      <data key="d9">residential</data>
-      <data key="d10">Օդեսսայի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">207.4270035893402</data>
-      <data key="d14">LINESTRING (44.4884059 40.1578775, 44.488206 40.1579266, 44.487983 40.1580604, 44.4875616 40.1583595, 44.4874328 40.1584408, 44.4873181 40.1585235, 44.4871324 40.1586487, 44.4868712 40.1589981, 44.4868204 40.1590907, 44.4867669 40.1591912)</data>
-    </edge>
-    <edge source="1983420640" target="10804334925" id="0">
-      <data key="d8">561319374</data>
-      <data key="d9">residential</data>
-      <data key="d10">Դոդոխյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">2.754923170006603</data>
-    </edge>
-    <edge source="1983420640" target="386578505" id="0">
-      <data key="d8">33770008</data>
-      <data key="d9">residential</data>
-      <data key="d10">Դոդոխյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">270.4401632407894</data>
-      <data key="d14">LINESTRING (44.4885289 40.1584498, 44.4888375 40.1583371, 44.489769 40.1581232, 44.491627 40.1579784)</data>
-    </edge>
-    <edge source="1983420640" target="386578505" id="1">
-      <data key="d8">[33770018, 533258771, 561319375]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Հրազդան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">352.1828009740506</data>
-      <data key="d14">LINESTRING (44.4885289 40.1584498, 44.48863 40.1585881, 44.4886714 40.1586467, 44.488731 40.1587052, 44.4887875 40.15875, 44.4888315 40.1587783, 44.4888904 40.1588094, 44.4889471 40.1588358, 44.4889924 40.1588546, 44.4890418 40.1588671, 44.4890949 40.1588693, 44.489144 40.1588652, 44.4895725 40.1587823, 44.4901177 40.1586767, 44.4903855 40.1586502, 44.4915419 40.1585358, 44.4916007 40.1585313, 44.491641 40.1585178, 44.4916662 40.1584988, 44.4916875 40.158455, 44.4916961 40.1584031, 44.4916402 40.1581676, 44.491627 40.1579784)</data>
-    </edge>
     <edge source="1983420658" target="5771862513" id="0">
       <data key="d8">[1354516617, 1354516618, 33769957]</data>
       <data key="d9">residential</data>
@@ -22730,16 +21068,6 @@
       <data key="d12">True</data>
       <data key="d13">46.25627080064314</data>
     </edge>
-    <edge source="2106801592" target="1461380499" id="0">
-      <data key="d8">132830684</data>
-      <data key="d9">residential</data>
-      <data key="d16">20</data>
-      <data key="d10">Չայկովսկու փողոց</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">169.93495444603806</data>
-      <data key="d14">LINESTRING (44.5171152 40.1752114, 44.5171909 40.1751732, 44.517239 40.1751584, 44.5173093 40.1751367, 44.5174263 40.1750912, 44.5174988 40.1750513, 44.5175487 40.1750007, 44.5177092 40.174736, 44.5181021 40.1740807, 44.518165 40.1739741)</data>
-    </edge>
     <edge source="2233375802" target="310482042" id="0">
       <data key="d8">48409987</data>
       <data key="d9">tertiary</data>
@@ -23090,25 +21418,6 @@
       <data key="d12">False</data>
       <data key="d13">52.086604925843595</data>
       <data key="d14">LINESTRING (44.4998417 40.1563674, 44.4999705 40.1563196, 44.5003931 40.1561629)</data>
-    </edge>
-    <edge source="2240176056" target="2252616534" id="0">
-      <data key="d8">514305640</data>
-      <data key="d9">primary</data>
-      <data key="d15">4</data>
-      <data key="d16">60</data>
-      <data key="d10">Արշակունյաց պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">30.593490563528015</data>
-      <data key="d14">LINESTRING (44.5016022 40.1565755, 44.501613 40.1565951, 44.5017415 40.1568292)</data>
-    </edge>
-    <edge source="2240176056" target="2240176059" id="0">
-      <data key="d8">514305644</data>
-      <data key="d9">primary_link</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">18.33829570252302</data>
-      <data key="d14">LINESTRING (44.5016022 40.1565755, 44.5015827 40.1566116, 44.5015637 40.1566277, 44.5015413 40.156638, 44.5015126 40.1566439, 44.5014795 40.1566408, 44.5014365 40.1566261)</data>
     </edge>
     <edge source="2240176057" target="2240176054" id="0">
       <data key="d8">1081001701</data>
@@ -23773,84 +22082,6 @@
       <data key="d13">277.626081850817</data>
       <data key="d14">LINESTRING (44.5406009 40.1985294, 44.5395981 40.198581, 44.5383376 40.1986012, 44.5379634 40.1987267, 44.5378678 40.1988338, 44.5376943 40.1990284, 44.5376731 40.1990522, 44.5376193 40.199096)</data>
     </edge>
-    <edge source="2268700315" target="2268700342" id="0">
-      <data key="d8">217585555</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 3-րդ նրբանցք</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">106.65777573971292</data>
-      <data key="d14">LINESTRING (44.5090369 40.1574147, 44.509064 40.1577616, 44.5090781 40.1578431, 44.509087 40.157876, 44.5091007 40.1579017, 44.5091458 40.1579607, 44.5091557 40.1580021, 44.5091591 40.1580569, 44.5091644 40.158306, 44.5091517 40.1583342, 44.5091461 40.1583577)</data>
-    </edge>
-    <edge source="2268700315" target="331543959" id="0">
-      <data key="d8">[217585555, 1187018022]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 3-րդ նրբանցք</data>
-      <data key="d11">False</data>
-      <data key="d12">[False, True]</data>
-      <data key="d13">204.74212318894863</data>
-      <data key="d14">LINESTRING (44.5090369 40.1574147, 44.5090281 40.1572461, 44.509034 40.1571081, 44.5090563 40.1570154, 44.5090598 40.1566952, 44.5090438 40.1560139, 44.5088933 40.1559198, 44.5088964 40.1558129, 44.5088862 40.15563)</data>
-    </edge>
-    <edge source="2268700315" target="4626071274" id="0">
-      <data key="d8">217585562</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 2-րդ փակուղի</data>
-      <data key="d17">5</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">180.0039032787269</data>
-      <data key="d14">LINESTRING (44.5090369 40.1574147, 44.5095521 40.157398, 44.5103768 40.1573667, 44.5104259 40.1574193, 44.5104849 40.157446, 44.5105374 40.1575687, 44.5106037 40.1575931, 44.5108383 40.1575498, 44.5109736 40.157523)</data>
-    </edge>
-    <edge source="2268700315" target="12518335959" id="0">
-      <data key="d8">217585562</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 2-րդ փակուղի</data>
-      <data key="d17">5</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">86.31230490589661</data>
-      <data key="d14">LINESTRING (44.5090369 40.1574147, 44.508641 40.1574297, 44.5086061 40.157431, 44.5085973 40.1573126, 44.5082228 40.1573059, 44.5081683 40.1573074)</data>
-    </edge>
-    <edge source="2268700342" target="2268700344" id="0">
-      <data key="d8">217585563</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">36.230192164849925</data>
-    </edge>
-    <edge source="2268700342" target="2342432612" id="0">
-      <data key="d8">217585555</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 3-րդ նրբանցք</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">112.00721585548965</data>
-      <data key="d14">LINESTRING (44.5091461 40.1583577, 44.509137 40.1583834, 44.5091346 40.1584231, 44.5091638 40.1588477, 44.509171 40.1588848, 44.5091911 40.1589641, 44.5092219 40.1590935, 44.509228 40.1591206, 44.5092407 40.1591765, 44.5092503 40.1592564, 44.509251 40.1593066, 44.5092463 40.1593315, 44.509241 40.1593573)</data>
-    </edge>
-    <edge source="2268700342" target="2268700315" id="0">
-      <data key="d8">217585555</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 3-րդ նրբանցք</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">106.6577757397129</data>
-      <data key="d14">LINESTRING (44.5091461 40.1583577, 44.5091517 40.1583342, 44.5091644 40.158306, 44.5091591 40.1580569, 44.5091557 40.1580021, 44.5091458 40.1579607, 44.5091007 40.1579017, 44.509087 40.157876, 44.5090781 40.1578431, 44.509064 40.1577616, 44.5090369 40.1574147)</data>
-    </edge>
-    <edge source="2268700342" target="4626071269" id="0">
-      <data key="d8">217585563</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">179.5907283728005</data>
-      <data key="d14">LINESTRING (44.5091461 40.1583577, 44.5095416 40.1583534, 44.5096589 40.1583521, 44.5100431 40.1583465, 44.5108148 40.1583354, 44.5111166 40.1583292, 44.5112541 40.1583009)</data>
-    </edge>
-    <edge source="2268700344" target="2268700342" id="0">
-      <data key="d8">217585563</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">36.230192164849925</data>
-    </edge>
     <edge source="2270900368" target="5771862513" id="0">
       <data key="d8">[331902281, 214478225]</data>
       <data key="d9">residential</data>
@@ -24235,17 +22466,6 @@
       <data key="d13">418.92564710826986</data>
       <data key="d14">LINESTRING (44.5308525 40.1831108, 44.5306698 40.1832137, 44.530544 40.1833693, 44.5304841 40.1834837, 44.5305291 40.1835318, 44.5306668 40.1835935, 44.5307686 40.1836576, 44.5307795 40.1838192, 44.5307474 40.1839277, 44.5306508 40.1842146, 44.5306079 40.1846163, 44.5306199 40.1847422, 44.5306458 40.1850128, 44.5306115 40.1852908, 44.5304271 40.1857271, 44.5301895 40.1862064, 44.5300145 40.1865685)</data>
     </edge>
-    <edge source="2281168856" target="1342686213" id="0">
-      <data key="d8">1229860632</data>
-      <data key="d9">primary</data>
-      <data key="d15">3</data>
-      <data key="d16">60</data>
-      <data key="d10">Ազատության պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">121.70608358362202</data>
-      <data key="d14">LINESTRING (44.5205181 40.2000731, 44.5201831 40.1997316, 44.520096 40.1996377, 44.5200378 40.1995782, 44.5200084 40.1995477, 44.5196643 40.1991941)</data>
-    </edge>
     <edge source="2283469590" target="331489198" id="0">
       <data key="d8">30095865</data>
       <data key="d9">tertiary</data>
@@ -24345,26 +22565,6 @@
       <data key="d13">197.2494602799149</data>
       <data key="d14">LINESTRING (44.5140854 40.1732329, 44.5150424 40.1732811, 44.5160592 40.1734402, 44.5163668 40.1735194)</data>
     </edge>
-    <edge source="2315582700" target="635463209" id="0">
-      <data key="d8">[380351866, 137999339, 380585343]</data>
-      <data key="d9">trunk</data>
-      <data key="d15">3</data>
-      <data key="d16">60</data>
-      <data key="d10">Մյասնիկյանի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d20">Մ-4</data>
-      <data key="d12">False</data>
-      <data key="d13">280.6394675804925</data>
-      <data key="d14">LINESTRING (44.5336807 40.1930946, 44.5335376 40.1930157, 44.5333597 40.1929393, 44.5330991 40.1928432, 44.5325741 40.1926811, 44.5319139 40.1925254, 44.5316157 40.1924344, 44.5314758 40.1923861, 44.5313509 40.192327, 44.5307524 40.1919751)</data>
-    </edge>
-    <edge source="2315582700" target="3915249056" id="0">
-      <data key="d8">388312278</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">445.8049073968798</data>
-      <data key="d14">LINESTRING (44.5336807 40.1930946, 44.5335815 40.1931296, 44.5334981 40.1931698, 44.5335142 40.1932343, 44.5335912 40.1932944, 44.5337161 40.1934216, 44.5337092 40.1935001, 44.5338841 40.1936783, 44.5340567 40.193723, 44.5340949 40.1937486, 44.5341867 40.1938454, 44.5343363 40.1940108, 44.5345282 40.1941743, 44.5349051 40.1944919, 44.5355165 40.1950158, 44.5358196 40.1952554, 44.5361509 40.1954827, 44.5363198 40.1955638, 44.5365016 40.1956231, 44.5368304 40.1956766, 44.5370371 40.1956694)</data>
-    </edge>
     <edge source="2315596240" target="310482062" id="0">
       <data key="d8">179991234</data>
       <data key="d9">residential</data>
@@ -24390,25 +22590,6 @@
       <data key="d12">True</data>
       <data key="d13">173.86109382972805</data>
       <data key="d14">LINESTRING (44.5326802 40.1660219, 44.532832 40.166141, 44.5330577 40.1661128, 44.5336156 40.1659279, 44.533673 40.1657993, 44.5337222 40.1655454, 44.5340166 40.1652576)</data>
-    </edge>
-    <edge source="2320223138" target="4687331782" id="0">
-      <data key="d8">[216252118, 32392566]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Վարդան Աճեմյան փողոց</data>
-      <data key="d17">7</data>
-      <data key="d11">False</data>
-      <data key="d12">[False, True]</data>
-      <data key="d13">332.5794640825626</data>
-      <data key="d14">LINESTRING (44.5122854 40.1561092, 44.5123564 40.1568686, 44.5121604 40.1570553, 44.5121837 40.1575969, 44.512258 40.158456, 44.511933 40.1585085, 44.5118759 40.1585196, 44.5116288 40.1585775, 44.5115146 40.1586031)</data>
-    </edge>
-    <edge source="2320223138" target="5514692680" id="0">
-      <data key="d8">[223083936, 475101478]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Երկաթգիծ փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">222.01903086953965</data>
-      <data key="d14">LINESTRING (44.5122854 40.1561092, 44.5112752 40.1561792, 44.5113014 40.156366, 44.5113289 40.156387, 44.5113728 40.1564205, 44.5114177 40.1567133, 44.5113763 40.1567845, 44.5113786 40.1570576, 44.5111015 40.1571247, 44.5109917 40.1571526)</data>
     </edge>
     <edge source="2320358748" target="5503504937" id="0">
       <data key="d8">[133360329, 1366077342]</data>
@@ -24590,33 +22771,6 @@
       <data key="d13">68.02254735750205</data>
       <data key="d14">LINESTRING (44.5233763 40.1681302, 44.5234092 40.168083, 44.5234337 40.167865, 44.5234663 40.1676613, 44.5235121 40.1675317)</data>
     </edge>
-    <edge source="2342432612" target="370166067" id="0">
-      <data key="d8">32861831</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 1-ին փակուղի</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">65.31082765679673</data>
-      <data key="d14">LINESTRING (44.509241 40.1593573, 44.5087032 40.1593648, 44.5084727 40.159371)</data>
-    </edge>
-    <edge source="2342432612" target="1874021519" id="0">
-      <data key="d8">32861831</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 1-ին փակուղի</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">200.49274475368054</data>
-      <data key="d14">LINESTRING (44.509241 40.1593573, 44.5098567 40.1593521, 44.5103197 40.1593423, 44.5107476 40.1593397, 44.5111647 40.1593284, 44.511323 40.1593181, 44.5114785 40.1592915, 44.5115927 40.1592726)</data>
-    </edge>
-    <edge source="2342432612" target="2268700342" id="0">
-      <data key="d8">217585555</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 3-րդ նրբանցք</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">112.00721585548966</data>
-      <data key="d14">LINESTRING (44.509241 40.1593573, 44.5092463 40.1593315, 44.509251 40.1593066, 44.5092503 40.1592564, 44.5092407 40.1591765, 44.509228 40.1591206, 44.5092219 40.1590935, 44.5091911 40.1589641, 44.509171 40.1588848, 44.5091638 40.1588477, 44.5091346 40.1584231, 44.509137 40.1583834, 44.5091461 40.1583577)</data>
-    </edge>
     <edge source="2342479741" target="2330372290" id="0">
       <data key="d8">1366077326</data>
       <data key="d9">secondary</data>
@@ -24795,44 +22949,6 @@
       <data key="d12">False</data>
       <data key="d13">29.393166245091095</data>
       <data key="d14">LINESTRING (44.5018943 40.1873255, 44.5018614 40.1873085, 44.5018369 40.1872844, 44.5018234 40.1872558, 44.5018222 40.1872254, 44.5018283 40.1872027, 44.5018334 40.1871962, 44.5018558 40.1871711, 44.5018873 40.1871525, 44.5019185 40.1871433, 44.5019518 40.1871407)</data>
-    </edge>
-    <edge source="2365359010" target="2365359011" id="0">
-      <data key="d8">227906676</data>
-      <data key="d9">residential</data>
-      <data key="d10">Եղբայրության փողոց 1-ին նրբանցք</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">218.91150599503112</data>
-      <data key="d14">LINESTRING (44.4871691 40.1553745, 44.4861495 40.1561058, 44.4858017 40.1563897, 44.4854004 40.1567335, 44.4853565 40.1567711)</data>
-    </edge>
-    <edge source="2365359011" target="2365359010" id="0">
-      <data key="d8">227906676</data>
-      <data key="d9">residential</data>
-      <data key="d10">Եղբայրության փողոց 1-ին նրբանցք</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">218.91150599503112</data>
-      <data key="d14">LINESTRING (44.4853565 40.1567711, 44.4854004 40.1567335, 44.4858017 40.1563897, 44.4861495 40.1561058, 44.4871691 40.1553745)</data>
-    </edge>
-    <edge source="2365359011" target="1535109557" id="0">
-      <data key="d8">804886123</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Չեխովի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">71.14984974911266</data>
-      <data key="d14">LINESTRING (44.4853565 40.1567711, 44.4852632 40.1566992, 44.4850973 40.1565714, 44.4847668 40.1563169)</data>
-    </edge>
-    <edge source="2365359011" target="1431667620" id="0">
-      <data key="d8">804886123</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Չեխովի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">65.4174206952826</data>
-      <data key="d14">LINESTRING (44.4853565 40.1567711, 44.4857189 40.1570502, 44.4858287 40.1571348, 44.4858987 40.1571887)</data>
     </edge>
     <edge source="2365359015" target="11653201363" id="0">
       <data key="d8">1253657585</data>
@@ -25024,17 +23140,6 @@
       <data key="d12">False</data>
       <data key="d13">36.59956369991226</data>
       <data key="d14">LINESTRING (44.4932622 40.1975395, 44.4932387 40.1976341, 44.4931856 40.1978634)</data>
-    </edge>
-    <edge source="2524485828" target="3824989902" id="0">
-      <data key="d8">245213219</data>
-      <data key="d9">primary</data>
-      <data key="d15">1</data>
-      <data key="d16">60</data>
-      <data key="d10">Վազգեն I փողոց</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">108.74336031768121</data>
-      <data key="d14">LINESTRING (44.4931322 40.1981791, 44.4931839 40.1983476, 44.4934156 40.1987972, 44.4934722 40.1989125, 44.49353 40.1991061)</data>
     </edge>
     <edge source="2524488185" target="3824565414" id="0">
       <data key="d8">552840213</data>
@@ -25278,16 +23383,6 @@
       <data key="d13">184.01726418101896</data>
       <data key="d14">LINESTRING (44.4904908 40.1970881, 44.4902294 40.1971193, 44.4899914 40.1971477, 44.4898459 40.1971215, 44.4897884 40.1971111, 44.4897441 40.1970843, 44.4886505 40.1964215)</data>
     </edge>
-    <edge source="2769695691" target="4043623276" id="0">
-      <data key="d8">288273170</data>
-      <data key="d9">trunk_link</data>
-      <data key="d15">1</data>
-      <data key="d16">60</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">178.59769393411509</data>
-      <data key="d14">LINESTRING (44.4867448 40.1687862, 44.4865449 40.1687891, 44.4864376 40.168794, 44.4863838 40.1688023, 44.4863263 40.1688221, 44.4861399 40.1689102, 44.485574 40.1692248, 44.4852861 40.1693873, 44.4849743 40.1695783)</data>
-    </edge>
     <edge source="2769695691" target="3824813096" id="0">
       <data key="d8">[1164629812, 1164629813, 380343622]</data>
       <data key="d9">trunk</data>
@@ -25498,18 +23593,6 @@
       <data key="d12">False</data>
       <data key="d13">133.05414002229708</data>
     </edge>
-    <edge source="2984833790" target="4043623276" id="0">
-      <data key="d8">[401957312, 615913895, 294859071]</data>
-      <data key="d9">trunk_link</data>
-      <data key="d15">['1', '2']</data>
-      <data key="d16">60</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">391.59965490717417</data>
-      <data key="d18">yes</data>
-      <data key="d10">Մոնթե Մելքոնյանի պողոտա</data>
-      <data key="d14">LINESTRING (44.4863401 40.168367, 44.4865675 40.1684745, 44.4866629 40.1684962, 44.4867741 40.1685121, 44.4868639 40.1685118, 44.4869429 40.1684958, 44.4870188 40.1684599, 44.4870698 40.1684196, 44.4871137 40.1683739, 44.48714 40.1683165, 44.4871461 40.1682541, 44.487146 40.1681935, 44.4871345 40.1681421, 44.4871139 40.1680951, 44.4870833 40.168051, 44.4870272 40.1679993, 44.4869386 40.1679467, 44.4868472 40.1679154, 44.4867424 40.1678963, 44.4866223 40.1679078, 44.486512 40.1679542, 44.4864165 40.1680294, 44.4858109 40.1686334, 44.4853708 40.1691098, 44.4849743 40.1695783)</data>
-    </edge>
     <edge source="2989437694" target="4622454156" id="0">
       <data key="d8">299621916</data>
       <data key="d9">tertiary</data>
@@ -25609,14 +23692,6 @@
       <data key="d12">True</data>
       <data key="d13">223.65861437908873</data>
       <data key="d14">LINESTRING (44.5176647 40.1640936, 44.5174 40.1647396, 44.5174103 40.1648096, 44.5174193 40.1648701, 44.5174429 40.1649115, 44.517492 40.1649413, 44.5175592 40.1649572, 44.5176436 40.1649571, 44.5177711 40.1649265, 44.5178327 40.1649223, 44.5178959 40.1649348, 44.5182414 40.1650295, 44.5183536 40.165059, 44.5188749 40.1651963)</data>
-    </edge>
-    <edge source="3036483995" target="2524485828" id="0">
-      <data key="d8">245214318</data>
-      <data key="d9">primary_link</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">18.816205591698342</data>
-      <data key="d14">LINESTRING (44.4929308 40.1981711, 44.492968 40.1981535, 44.4930135 40.1981447, 44.4930491 40.1981483, 44.4930933 40.198157, 44.493105 40.1981606, 44.4931222 40.1981701, 44.4931322 40.1981791)</data>
     </edge>
     <edge source="3036483995" target="3824547839" id="0">
       <data key="d8">245214332</data>
@@ -26189,15 +24264,6 @@
       <data key="d12">False</data>
       <data key="d13">22.415384570790675</data>
     </edge>
-    <edge source="3824565412" target="2524485828" id="0">
-      <data key="d8">[579004581, 534777983]</data>
-      <data key="d9">primary_link</data>
-      <data key="d15">1</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">27.377998218559437</data>
-      <data key="d14">LINESTRING (44.4934012 40.1980541, 44.4933374 40.1980623, 44.4932844 40.1980818, 44.4932127 40.1981238, 44.4931698 40.1981499, 44.4931322 40.1981791)</data>
-    </edge>
     <edge source="3824565414" target="626138274" id="0">
       <data key="d8">[613092648, 579004588]</data>
       <data key="d9">secondary</data>
@@ -26241,18 +24307,6 @@
       <data key="d12">False</data>
       <data key="d13">86.46098424265857</data>
       <data key="d14">LINESTRING (44.4935275 40.1967901, 44.4935036 40.1968807, 44.4934709 40.1969515, 44.4933896 40.1971336, 44.493301 40.197385, 44.4932716 40.1975022, 44.4932622 40.1975395)</data>
-    </edge>
-    <edge source="3828228958" target="3824989902" id="0">
-      <data key="d8">[1190153546, 1190153549, 380344437, 379149078]</data>
-      <data key="d9">primary</data>
-      <data key="d15">1</data>
-      <data key="d16">60</data>
-      <data key="d10">['Մարշալ Բաղրամյան պողոտա', 'Վազգեն I փողոց']</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">271.2040352118971</data>
-      <data key="d18">yes</data>
-      <data key="d14">LINESTRING (44.4935275 40.1967901, 44.4934141 40.1969159, 44.4932084 40.197442, 44.4931263 40.1978109, 44.4930993 40.1979321, 44.4930883 40.1980056, 44.4930858 40.1980566, 44.4930823 40.1981038, 44.4930789 40.1981638, 44.4930909 40.1982324, 44.4931054 40.1982952, 44.493399 40.1989132, 44.49353 40.1991061)</data>
     </edge>
     <edge source="3828391037" target="311022305" id="0">
       <data key="d8">[28321762, 1126163188]</data>
@@ -27200,65 +25254,6 @@
       <data key="d13">177.04443256342125</data>
       <data key="d14">LINESTRING (44.4888315 40.1954216, 44.4886065 40.1952914, 44.4880192 40.194943, 44.4874424 40.1946014, 44.4871802 40.19445)</data>
     </edge>
-    <edge source="3915249056" target="2315582700" id="0">
-      <data key="d8">388312278</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">445.80490739687986</data>
-      <data key="d14">LINESTRING (44.5370371 40.1956694, 44.5368304 40.1956766, 44.5365016 40.1956231, 44.5363198 40.1955638, 44.5361509 40.1954827, 44.5358196 40.1952554, 44.5355165 40.1950158, 44.5349051 40.1944919, 44.5345282 40.1941743, 44.5343363 40.1940108, 44.5341867 40.1938454, 44.5340949 40.1937486, 44.5340567 40.193723, 44.5338841 40.1936783, 44.5337092 40.1935001, 44.5337161 40.1934216, 44.5335912 40.1932944, 44.5335142 40.1932343, 44.5334981 40.1931698, 44.5335815 40.1931296, 44.5336807 40.1930946)</data>
-    </edge>
-    <edge source="4043576972" target="5240047772" id="0">
-      <data key="d8">549918070</data>
-      <data key="d9">residential</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">12.094310434321399</data>
-    </edge>
-    <edge source="4043576972" target="4043623277" id="0">
-      <data key="d8">[1239398440, 615913886]</data>
-      <data key="d9">primary</data>
-      <data key="d15">2</data>
-      <data key="d16">['60', '70']</data>
-      <data key="d10">Մոնթե Մելքոնյանի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">34.70281128800874</data>
-      <data key="d14">LINESTRING (44.4846023 40.1699217, 44.4846422 40.1698578, 44.48478 40.1696407)</data>
-    </edge>
-    <edge source="4043623276" target="5240047772" id="0">
-      <data key="d8">[1235146257, 615913891]</data>
-      <data key="d9">primary</data>
-      <data key="d15">2</data>
-      <data key="d16">['60', '70']</data>
-      <data key="d10">Մոնթե Մելքոնյանի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">47.59341384787175</data>
-      <data key="d14">LINESTRING (44.4849743 40.1695783, 44.4847719 40.1699016, 44.4847331 40.1699646)</data>
-    </edge>
-    <edge source="4043623277" target="3824813096" id="0">
-      <data key="d8">288273559</data>
-      <data key="d9">trunk_link</data>
-      <data key="d15">1</data>
-      <data key="d16">60</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">283.5765466305413</data>
-      <data key="d14">LINESTRING (44.48478 40.1696407, 44.4849554 40.1692342, 44.4849817 40.1691213, 44.4849924 40.1690043, 44.4849747 40.1687931, 44.4849308 40.1684494, 44.4848781 40.1680322, 44.4848572 40.1678891, 44.4848259 40.1678015, 44.4847878 40.1677442, 44.4847446 40.167676, 44.4846239 40.1675697, 44.4842673 40.1672788)</data>
-    </edge>
-    <edge source="4043623277" target="4044563145" id="0">
-      <data key="d8">[288273560, 289242434, 615913899]</data>
-      <data key="d9">trunk_link</data>
-      <data key="d15">2</data>
-      <data key="d16">60</data>
-      <data key="d10">Մոնթե Մելքոնյանի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">459.29030762771214</data>
-      <data key="d18">yes</data>
-      <data key="d14">LINESTRING (44.48478 40.1696407, 44.4850297 40.1693345, 44.4853632 40.1689305, 44.4857034 40.1685704, 44.486307 40.1679615, 44.4863928 40.1678866, 44.4864831 40.1678392, 44.4865961 40.1677944, 44.4866838 40.1677898, 44.4867782 40.1677846, 44.4868459 40.167789, 44.486924 40.1678014, 44.4870218 40.1678309, 44.4871057 40.1678913, 44.4871694 40.1679415, 44.4872145 40.1680015, 44.4872471 40.1680457, 44.4872638 40.1680996, 44.4872778 40.1681363, 44.4872924 40.1681839, 44.4872903 40.1682703, 44.4872736 40.1683584, 44.4872204 40.1684683, 44.4871814 40.1685664, 44.4871779 40.168682, 44.4871853 40.1687312, 44.4872088 40.1687886, 44.4872203 40.1688024, 44.4872906 40.1689026, 44.4873943 40.1689883, 44.4875469 40.1691295)</data>
-    </edge>
     <edge source="4044563145" target="1463895518" id="0">
       <data key="d8">[1164629810, 133035548]</data>
       <data key="d9">trunk</data>
@@ -27270,40 +25265,6 @@
       <data key="d12">False</data>
       <data key="d13">306.8389559894518</data>
       <data key="d14">LINESTRING (44.4875469 40.1691295, 44.4881776 40.1695153, 44.489672 40.1704331, 44.4903642 40.1708558)</data>
-    </edge>
-    <edge source="4069873856" target="4069873881" id="0">
-      <data key="d8">404715473</data>
-      <data key="d9">living_street</data>
-      <data key="d10">Կողբի 1-ին փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">67.62486726215418</data>
-    </edge>
-    <edge source="4069873881" target="4069873856" id="0">
-      <data key="d8">404715473</data>
-      <data key="d9">living_street</data>
-      <data key="d10">Կողբի 1-ին փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">67.62486726215418</data>
-    </edge>
-    <edge source="4069873881" target="331556512" id="0">
-      <data key="d8">33770046</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կողբի 2-րդ փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">63.46794879551041</data>
-      <data key="d14">LINESTRING (44.4855859 40.1635447, 44.4859707 40.163404, 44.4862577 40.1632953)</data>
-    </edge>
-    <edge source="4069873881" target="1142241367" id="0">
-      <data key="d8">[33770046, 1332706415]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Կողբի 2-րդ փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">181.09011596749895</data>
-      <data key="d14">LINESTRING (44.4855859 40.1635447, 44.4848706 40.1638104, 44.4843228 40.1628794)</data>
     </edge>
     <edge source="4071865074" target="388107322" id="0">
       <data key="d8">175223758</data>
@@ -27751,27 +25712,6 @@
       <data key="d13">23.035818381178565</data>
       <data key="d14">LINESTRING (44.5271143 40.1769914, 44.5272695 40.1769408, 44.5273702 40.1769266)</data>
     </edge>
-    <edge source="4230885913" target="612586242" id="0">
-      <data key="d8">190586988</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Դրոյի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">52.700577880636054</data>
-      <data key="d14">LINESTRING (44.5372636 40.1993863, 44.5373683 40.1994787, 44.5374086 40.1995121, 44.5376789 40.1997384)</data>
-    </edge>
-    <edge source="4230885917" target="4230885913" id="0">
-      <data key="d8">[1119239345, 423490651]</data>
-      <data key="d9">primary</data>
-      <data key="d15">3</data>
-      <data key="d16">['60', '40']</data>
-      <data key="d10">['Ռուբինյանց փողոց', 'Դավիթ Անհաղթի փողոց']</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">260.92464615760093</data>
-      <data key="d14">LINESTRING (44.5400777 40.1999035, 44.5386883 40.1994784, 44.5379047 40.1992234, 44.5378121 40.1991992, 44.5377318 40.1991896, 44.5376501 40.1991946, 44.537545 40.199231, 44.5374532 40.1992838, 44.5372636 40.1993863)</data>
-    </edge>
     <edge source="4234582615" target="3839031476" id="0">
       <data key="d8">423956933</data>
       <data key="d9">primary</data>
@@ -28163,46 +26103,6 @@
       <data key="d13">556.0689513715932</data>
       <data key="d14">LINESTRING (44.5232818 40.1739062, 44.5234978 40.1739069, 44.5235182 40.1739069, 44.525069 40.1739118, 44.5255062 40.1739171, 44.5256997 40.173924, 44.5258095 40.173922, 44.5258063 40.1740123, 44.5257639 40.1742278, 44.5256629 40.1744349, 44.5256518 40.1744576, 44.5256237 40.1744846, 44.5255786 40.1744915, 44.5235482 40.1744785, 44.5235056 40.1744768, 44.5228442 40.174506, 44.5227707 40.1744998, 44.5225449 40.174599, 44.5224359 40.1746549)</data>
     </edge>
-    <edge source="4626071269" target="2268700342" id="0">
-      <data key="d8">217585563</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">179.59072837280047</data>
-      <data key="d14">LINESTRING (44.5112541 40.1583009, 44.5111166 40.1583292, 44.5108148 40.1583354, 44.5100431 40.1583465, 44.5096589 40.1583521, 44.5095416 40.1583534, 44.5091461 40.1583577)</data>
-    </edge>
-    <edge source="4626071269" target="4626071274" id="0">
-      <data key="d8">847899026</data>
-      <data key="d9">primary</data>
-      <data key="d15">3</data>
-      <data key="d16">60</data>
-      <data key="d10">Տիգրան Մեծի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">89.72646907916905</data>
-      <data key="d14">LINESTRING (44.5112541 40.1583009, 44.5110951 40.1578472, 44.5109736 40.157523)</data>
-    </edge>
-    <edge source="4626071274" target="2268700315" id="0">
-      <data key="d8">217585562</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 2-րդ փակուղի</data>
-      <data key="d17">5</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">180.0039032787269</data>
-      <data key="d14">LINESTRING (44.5109736 40.157523, 44.5108383 40.1575498, 44.5106037 40.1575931, 44.5105374 40.1575687, 44.5104849 40.157446, 44.5104259 40.1574193, 44.5103768 40.1573667, 44.5095521 40.157398, 44.5090369 40.1574147)</data>
-    </edge>
-    <edge source="4626071274" target="406387626" id="0">
-      <data key="d8">[847899025, 574562209]</data>
-      <data key="d9">primary</data>
-      <data key="d15">3</data>
-      <data key="d16">60</data>
-      <data key="d10">Տիգրան Մեծի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">223.70456468770945</data>
-      <data key="d14">LINESTRING (44.5109736 40.157523, 44.5108571 40.1571838, 44.5106852 40.1567202, 44.5106795 40.1567048, 44.5103626 40.155861, 44.5103305 40.1557633, 44.5103001 40.1556739, 44.5102696 40.1555846)</data>
-    </edge>
     <edge source="4662642229" target="3831529185" id="0">
       <data key="d8">[512148080, 28323729, 379809275, 379809273]</data>
       <data key="d9">residential</data>
@@ -28365,27 +26265,6 @@
       <data key="d13">224.16368333344116</data>
       <data key="d18">yes</data>
       <data key="d14">LINESTRING (44.500613 40.1742166, 44.500568 40.1742371, 44.4989905 40.1754436, 44.4988063 40.1755859, 44.4987414 40.1756358)</data>
-    </edge>
-    <edge source="4687331782" target="2320223138" id="0">
-      <data key="d8">[32392566, 216252118]</data>
-      <data key="d9">residential</data>
-      <data key="d10">Վարդան Աճեմյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">[False, True]</data>
-      <data key="d13">332.5794640825626</data>
-      <data key="d17">7</data>
-      <data key="d14">LINESTRING (44.5115146 40.1586031, 44.5116288 40.1585775, 44.5118759 40.1585196, 44.511933 40.1585085, 44.512258 40.158456, 44.5121837 40.1575969, 44.5121604 40.1570553, 44.5123564 40.1568686, 44.5122854 40.1561092)</data>
-    </edge>
-    <edge source="4687331782" target="5514692675" id="0">
-      <data key="d8">577391100</data>
-      <data key="d9">primary</data>
-      <data key="d15">4</data>
-      <data key="d16">60</data>
-      <data key="d10">Տիգրան Մեծի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">184.77537247165492</data>
-      <data key="d14">LINESTRING (44.5115146 40.1586031, 44.5119029 40.1596716, 44.5120478 40.1600451, 44.5121097 40.1602013)</data>
     </edge>
     <edge source="4688983906" target="10970452605" id="0">
       <data key="d8">1181288633</data>
@@ -29373,17 +27252,6 @@
       <data key="d12">True</data>
       <data key="d13">37.23040815869254</data>
     </edge>
-    <edge source="5240047772" target="4043629092" id="0">
-      <data key="d8">[401957314, 615913891]</data>
-      <data key="d9">primary</data>
-      <data key="d15">2</data>
-      <data key="d16">['60', '70']</data>
-      <data key="d10">Մոնթե Մելքոնյանի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">43.32495199687179</data>
-      <data key="d14">LINESTRING (44.4847331 40.1699646, 44.4845761 40.1702311, 44.484525 40.1703203)</data>
-    </edge>
     <edge source="5243206714" target="4723749704" id="0">
       <data key="d8">1354620561</data>
       <data key="d9">residential</data>
@@ -29465,16 +27333,6 @@
       <data key="d11">True</data>
       <data key="d12">False</data>
       <data key="d13">19.08583289738275</data>
-    </edge>
-    <edge source="5336948394" target="2524485828" id="0">
-      <data key="d8">245214383</data>
-      <data key="d9">primary_link</data>
-      <data key="d16">60</data>
-      <data key="d10">Վազգեն I փողոց</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">24.86833638138917</data>
-      <data key="d14">LINESTRING (44.4931697 40.1979573, 44.493155 40.1980391, 44.4931322 40.1981791)</data>
     </edge>
     <edge source="5450648349" target="4296905827" id="0">
       <data key="d8">1164643111</data>
@@ -29784,45 +27642,6 @@
       <data key="d12">False</data>
       <data key="d13">250.06590677399942</data>
       <data key="d14">LINESTRING (44.5121097 40.1602013, 44.5121425 40.1603165, 44.5127023 40.1619075, 44.5128938 40.1623683)</data>
-    </edge>
-    <edge source="5514692680" target="2320223138" id="0">
-      <data key="d8">[223083936, 475101478]</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">222.01903086953968</data>
-      <data key="d10">Երկաթգիծ փողոց</data>
-      <data key="d14">LINESTRING (44.5109917 40.1571526, 44.5111015 40.1571247, 44.5113786 40.1570576, 44.5113763 40.1567845, 44.5114177 40.1567133, 44.5113728 40.1564205, 44.5113289 40.156387, 44.5113014 40.156366, 44.5112752 40.1561792, 44.5122854 40.1561092)</data>
-    </edge>
-    <edge source="5514692680" target="4687331782" id="0">
-      <data key="d8">574560305</data>
-      <data key="d9">primary</data>
-      <data key="d15">3</data>
-      <data key="d16">60</data>
-      <data key="d10">Տիգրան Մեծի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">167.3020354085903</data>
-      <data key="d14">LINESTRING (44.5109917 40.1571526, 44.5112158 40.1577899, 44.5112547 40.1578904, 44.5115146 40.1586031)</data>
-    </edge>
-    <edge source="5514706072" target="406387626" id="0">
-      <data key="d8">750004942</data>
-      <data key="d9">residential</data>
-      <data key="d15">1</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">14.988448063251044</data>
-    </edge>
-    <edge source="5514706072" target="5514692680" id="0">
-      <data key="d8">750004944</data>
-      <data key="d9">primary</data>
-      <data key="d15">3</data>
-      <data key="d16">60</data>
-      <data key="d10">Տիգրան Մեծի պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">182.971797470797</data>
-      <data key="d14">LINESTRING (44.5104434 40.1555617, 44.5104934 40.155735, 44.5105206 40.1558344, 44.5109917 40.1571526)</data>
     </edge>
     <edge source="5625911499" target="311053749" id="0">
       <data key="d8">28323846</data>
@@ -30663,23 +28482,6 @@
       <data key="d13">22.04565182734781</data>
       <data key="d14">LINESTRING (44.5036854 40.1741315, 44.5036854 40.174086, 44.5036941 40.1740476, 44.5037067 40.1740215, 44.5037268 40.1740004, 44.503776 40.1739538)</data>
     </edge>
-    <edge source="6479010641" target="331484815" id="0">
-      <data key="d8">185715849</data>
-      <data key="d9">residential</data>
-      <data key="d10">Այծեմնիկ Ուրարտուի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">6.063251037674815</data>
-    </edge>
-    <edge source="6479010641" target="331486185" id="0">
-      <data key="d8">185715849</data>
-      <data key="d9">residential</data>
-      <data key="d10">Այծեմնիկ Ուրարտուի փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">525.3463281645804</data>
-      <data key="d14">LINESTRING (44.54193 40.1707481, 44.5420039 40.1708125, 44.5420908 40.1709394, 44.542128 40.1710396, 44.5421357 40.1712454, 44.5421045 40.1713948, 44.5417646 40.1735812, 44.5415294 40.1750937, 44.5415722 40.1754014)</data>
-    </edge>
     <edge source="6632862047" target="632049250" id="0">
       <data key="d8">705913604</data>
       <data key="d9">primary_link</data>
@@ -31394,22 +29196,6 @@
       <data key="d13">249.0138655537213</data>
       <data key="d14">LINESTRING (44.5128986 40.1707641, 44.5128149 40.1707259, 44.5127209 40.170683, 44.5126617 40.170637, 44.5125597 40.1702333, 44.5124624 40.1700385, 44.5123881 40.1698466, 44.5121368 40.1691618, 44.5120887 40.169103, 44.5120332 40.1690423, 44.5119841 40.1690081, 44.5117467 40.1687798)</data>
     </edge>
-    <edge source="8372636331" target="310482311" id="0">
-      <data key="d8">901278736</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">86.62331232568391</data>
-      <data key="d14">LINESTRING (44.5271403 40.1567449, 44.5270667 40.156655, 44.5270567 40.1565903, 44.5269982 40.1564649, 44.5269644 40.1563123, 44.5265944 40.1561627)</data>
-    </edge>
-    <edge source="8372636341" target="310482430" id="0">
-      <data key="d8">901278739</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">46.65913704668337</data>
-      <data key="d14">LINESTRING (44.5225339 40.1557522, 44.5227613 40.1556369, 44.5230185 40.1555601)</data>
-    </edge>
     <edge source="8758115784" target="311024575" id="0">
       <data key="d8">1177860885</data>
       <data key="d9">residential</data>
@@ -32035,37 +29821,6 @@
       <data key="d11">True</data>
       <data key="d12">False</data>
       <data key="d13">10.737996574326052</data>
-    </edge>
-    <edge source="10804334925" target="1983420640" id="0">
-      <data key="d8">561319374</data>
-      <data key="d9">residential</data>
-      <data key="d10">Դոդոխյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">2.754923170006603</data>
-    </edge>
-    <edge source="10804334925" target="10804334927" id="0">
-      <data key="d8">1161671695</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">5.141232661696275</data>
-    </edge>
-    <edge source="10804334925" target="386578201" id="0">
-      <data key="d8">561319374</data>
-      <data key="d9">residential</data>
-      <data key="d10">Դոդոխյան փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">138.48749492567896</data>
-      <data key="d14">LINESTRING (44.488503 40.1584647, 44.4884697 40.1584838, 44.4884036 40.1585217, 44.4876315 40.159107, 44.4873529 40.159345)</data>
-    </edge>
-    <edge source="10804334927" target="10804334925" id="0">
-      <data key="d8">1161671695</data>
-      <data key="d9">residential</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">5.141232661696275</data>
     </edge>
     <edge source="10830016931" target="311026015" id="0">
       <data key="d8">[1136544104, 1136544105, 28321841]</data>
@@ -32720,17 +30475,6 @@
       <data key="d13">136.95037310750814</data>
       <data key="d14">LINESTRING (44.5250968 40.1931581, 44.5251093 40.1931221, 44.5252166 40.1930374, 44.5252528 40.1930164, 44.5253626 40.1929528, 44.525495 40.1928566, 44.5255728 40.1927444, 44.5256043 40.192653, 44.5256057 40.1925742, 44.5255538 40.1923217, 44.5254333 40.1920989)</data>
     </edge>
-    <edge source="11257435149" target="1406262973" id="0">
-      <data key="d8">119516091</data>
-      <data key="d9">primary</data>
-      <data key="d15">3</data>
-      <data key="d16">60</data>
-      <data key="d10">Ազատության պողոտա</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">76.67508383780935</data>
-      <data key="d14">LINESTRING (44.5201279 40.1994292, 44.52016 40.1994611, 44.5202601 40.1995668, 44.5206647 40.1999836)</data>
-    </edge>
     <edge source="11302215231" target="331526145" id="0">
       <data key="d8">[1219750105, 190586987]</data>
       <data key="d9">tertiary</data>
@@ -32741,14 +30485,6 @@
       <data key="d12">True</data>
       <data key="d13">258.1888494769082</data>
       <data key="d14">LINESTRING (44.5202777 40.1989187, 44.5207767 40.198732, 44.520864 40.1986986, 44.5210597 40.1986239, 44.5211064 40.1986061, 44.5216889 40.1983838, 44.5218278 40.1983342, 44.521886 40.1983105, 44.5221246 40.1982209, 44.5221964 40.1981964, 44.5223167 40.1981495, 44.5229985 40.1978834)</data>
-    </edge>
-    <edge source="11302215231" target="11257435149" id="0">
-      <data key="d8">1219750106</data>
-      <data key="d9">tertiary_link</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">58.17884695823664</data>
-      <data key="d14">LINESTRING (44.5202777 40.1989187, 44.5201902 40.1992167, 44.5201606 40.1993255, 44.5201399 40.1993955, 44.5201279 40.1994292)</data>
     </edge>
     <edge source="11302215231" target="256031575" id="0">
       <data key="d8">1219750107</data>
@@ -34330,23 +32066,6 @@
       <data key="d12">False</data>
       <data key="d13">5.504265447214034</data>
     </edge>
-    <edge source="11677572427" target="287886954" id="0">
-      <data key="d8">28273364</data>
-      <data key="d9">tertiary</data>
-      <data key="d15">2</data>
-      <data key="d10">Մովսես Խորենացու փողոց</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">30.322942762958167</data>
-    </edge>
-    <edge source="11677572427" target="287886958" id="0">
-      <data key="d8">1256135923</data>
-      <data key="d9">residential</data>
-      <data key="d10">Միչուրինի փողոց</data>
-      <data key="d11">True</data>
-      <data key="d12">False</data>
-      <data key="d13">19.038196151213466</data>
-    </edge>
     <edge source="11760532254" target="310481537" id="0">
       <data key="d8">1266043372</data>
       <data key="d9">residential</data>
@@ -34564,16 +32283,6 @@
       <data key="d13">361.1654975175632</data>
       <data key="d15">2</data>
       <data key="d14">LINESTRING (44.5025741 40.1972221, 44.5024923 40.1971887, 44.5023255 40.1971179, 44.5023027 40.1970441, 44.502127 40.1969293, 44.5020466 40.1969109, 44.5019875 40.196916, 44.5018896 40.1970226, 44.5018575 40.1970461, 44.5018132 40.1970441, 44.5017596 40.1970246, 44.5009629 40.1966969, 44.4999231 40.1962683, 44.4989519 40.1958908)</data>
-    </edge>
-    <edge source="12518335959" target="2268700315" id="0">
-      <data key="d8">217585562</data>
-      <data key="d9">residential</data>
-      <data key="d10">Տիգրան Մեծի պողոտա 2-րդ փակուղի</data>
-      <data key="d17">5</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">86.31230490589661</data>
-      <data key="d14">LINESTRING (44.5081683 40.1573074, 44.5082228 40.1573059, 44.5085973 40.1573126, 44.5086061 40.157431, 44.508641 40.1574297, 44.5090369 40.1574147)</data>
     </edge>
     <edge source="12593950281" target="406386251" id="0">
       <data key="d8">349244299</data>
@@ -34839,24 +32548,6 @@
       <data key="d12">True</data>
       <data key="d13">337.91761660897055</data>
       <data key="d14">LINESTRING (44.5027134 40.1674886, 44.5027465 40.1674923, 44.5029464 40.1677119, 44.5030747 40.1677261, 44.5031847 40.1678387, 44.5033654 40.1680067, 44.5034893 40.1680269, 44.5042867 40.1679439, 44.5059069 40.1677694, 44.5062161 40.1677361, 44.5062541 40.1677312, 44.5063298 40.1677213)</data>
-    </edge>
-    <edge source="14220837629" target="14220837629" id="0">
-      <data key="d8">215837916</data>
-      <data key="d9">residential</data>
-      <data key="d10">Լալայանց փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">False</data>
-      <data key="d13">168.07364463969589</data>
-      <data key="d14">LINESTRING (44.5138152 40.184574, 44.5136725 40.1845222, 44.513636 40.184509, 44.5134167 40.1846522, 44.5133561 40.1846195, 44.5131608 40.1847497, 44.5130705 40.1848099, 44.5132002 40.1849184, 44.5132595 40.184968, 44.5138152 40.184574)</data>
-    </edge>
-    <edge source="14220837629" target="14220837629" id="1">
-      <data key="d8">215837916</data>
-      <data key="d9">residential</data>
-      <data key="d10">Լալայանց փողոց</data>
-      <data key="d11">False</data>
-      <data key="d12">True</data>
-      <data key="d13">168.07364463969589</data>
-      <data key="d14">LINESTRING (44.5138152 40.184574, 44.5132595 40.184968, 44.5132002 40.1849184, 44.5130705 40.1848099, 44.5131608 40.1847497, 44.5133561 40.1846195, 44.5134167 40.1846522, 44.513636 40.184509, 44.5136725 40.1845222, 44.5138152 40.184574)</data>
     </edge>
     <edge source="14220837629" target="2252713219" id="0">
       <data key="d8">215837916</data>

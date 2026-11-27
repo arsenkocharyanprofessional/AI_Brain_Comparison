@@ -1,13 +1,19 @@
-"""Download, cache and load the Yerevan road maps.
+"""Download, clean, save and load the Yerevan road maps.
 
 Each map is a square around Republic Square. "Size" is half the side of the
 square, so the 2000 m map covers 4 km x 4 km. Only drivable streets are kept,
 and one way streets stay one way.
 
-The biggest map is downloaded once and the smaller squares are cut out of it.
-Run once with internet access to create the cached files:
+Two files per size live in data/maps/:
+  yerevan_2000m_raw.graphml   the streets exactly as downloaded
+  yerevan_2000m.graphml       the cleaned map that the game uses
+
+Run with internet access the first time:
     python -m engine.maps
-After that the game loads the maps from data/maps/ and never needs internet.
+It downloads the biggest map once, cuts the smaller squares out of it, and
+saves raw and cleaned files. If the raw files already exist it skips the
+download and only redoes the cleaning, so a change to the cleaning rules
+never needs the busy map server again.
 Map data from OpenStreetMap contributors.
 """
 
@@ -29,10 +35,17 @@ MAPS_DIR = Path(__file__).resolve().parent.parent / "data" / "maps"
 RETRY_WAITS_S = (30, 60, 120, 240)
 
 
+def raw_map_path(size_m: int) -> Path:
+    """Where the map exactly as downloaded lives."""
+    return MAPS_DIR / f"yerevan_{size_m}m_raw.graphml"
+
+
 def map_path(size_m: int) -> Path:
-    """Where the cached map of this size lives."""
+    """Where the cleaned map used by the game lives."""
     return MAPS_DIR / f"yerevan_{size_m}m.graphml"
 
+
+# Downloading
 
 def download_map(size_m: int) -> nx.MultiDiGraph:
     """Download the drivable streets in a square around the center."""
@@ -58,7 +71,7 @@ def cut_square(big_map: nx.MultiDiGraph, size_m: int) -> nx.MultiDiGraph:
     return ox.truncate.truncate_graph_bbox(big_map, bbox)
 
 
-def cache_all_maps() -> None:
+def download_raw_maps() -> None:
     """Download the biggest map once, then cut the smaller ones from it.
 
     One download instead of three is kinder to the busy server, and it
@@ -70,16 +83,10 @@ def cache_all_maps() -> None:
     big_map = download_with_retries(biggest)
     for size in MAP_SIZES_M:
         graph = big_map if size == biggest else cut_square(big_map, size)
-        ox.save_graphml(graph, map_path(size))
+        ox.save_graphml(graph, raw_map_path(size))
 
 
-def load_map(size_m: int) -> nx.MultiDiGraph:
-    """Load a cached map. Works offline."""
-    path = map_path(size_m)
-    if not path.exists():
-        raise FileNotFoundError(f"{path} is missing. Run: python -m engine.maps")
-    return ox.load_graphml(path)
-
+# Cleaning
 
 def clean_map(graph: nx.MultiDiGraph) -> nx.MultiDiGraph:
     """Make the map safe to drive on.
@@ -97,9 +104,28 @@ def clean_map(graph: nx.MultiDiGraph) -> nx.MultiDiGraph:
     return cleaned
 
 
-def load_clean_map(size_m: int) -> nx.MultiDiGraph:
-    """Load a cached map and clean it. This is the map the game uses."""
-    return clean_map(load_map(size_m))
+def save_clean_maps() -> None:
+    """Clean every raw map and save the result for the game."""
+    for size in MAP_SIZES_M:
+        ox.save_graphml(clean_map(load_raw_map(size)), map_path(size))
+
+
+# Loading (works offline)
+
+def load_graph(path: Path) -> nx.MultiDiGraph:
+    if not path.exists():
+        raise FileNotFoundError(f"{path} is missing. Run: python -m engine.maps")
+    return ox.load_graphml(path)
+
+
+def load_raw_map(size_m: int) -> nx.MultiDiGraph:
+    """The map exactly as downloaded."""
+    return load_graph(raw_map_path(size_m))
+
+
+def load_map(size_m: int) -> nx.MultiDiGraph:
+    """The cleaned map. This is the one the game uses."""
+    return load_graph(map_path(size_m))
 
 
 def describe(graph: nx.MultiDiGraph) -> str:
@@ -112,7 +138,9 @@ def describe(graph: nx.MultiDiGraph) -> str:
 
 
 if __name__ == "__main__":
-    cache_all_maps()
+    if not all(raw_map_path(size).exists() for size in MAP_SIZES_M):
+        download_raw_maps()
+    save_clean_maps()
     for size in MAP_SIZES_M:
-        print(f"{size} m map: {describe(load_map(size))}")
-        print(f"  after cleaning: {describe(load_clean_map(size))}")
+        print(f"{size} m map: {describe(load_raw_map(size))}")
+        print(f"  after cleaning: {describe(load_map(size))}")
