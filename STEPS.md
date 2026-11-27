@@ -9,7 +9,7 @@ DEMO MINIMUM: Stages 1 to 6, plus Stage 8, plus the Replay viewer (Stage 4 and 5
 * [x] 0.2 Put the project description PDF and the Deliverable 2 docx in `docs/`. Done when: CLAUDE.md links resolve.
 
 ## Stage 1: Map and layout
-* [ ] 1.1 Download and cache the Yerevan drive network at 2, 2.5, 3 km. Done when: 3 cached graph files are committed, load offline, and node and edge counts are printed.
+* [x] 1.1 Download and cache the Yerevan drive network at 2, 2.5, 3 km. Done when: 3 cached graph files are committed, load offline, and node and edge counts are printed.
 * [ ] 1.2 Clean the graph: keep the largest strongly connected part, edge lengths in meters. Done when: every node can reach every other node.
 * [ ] 1.3 Place 5 vaults on a ring (at least 800 m apart, well connected nodes). Done when: a plot shows 5 vaults and the distance check passes.
 * [ ] 1.4 Place 40 ATMs and 2 shops. Done when: plot shows them mixed across the map.

@@ -1,0 +1,2 @@
+# Keep cached maps byte for byte identical on every computer
+*.graphml -text
