@@ -4,7 +4,8 @@ Each map is a square around Republic Square. "Size" is half the side of the
 square, so the 2000 m map covers 4 km x 4 km. Only drivable streets are kept,
 and one way streets stay one way.
 
-The biggest map is downloaded once and the smaller squares are cut out of it.\nRun once with internet access to create the cached files:
+The biggest map is downloaded once and the smaller squares are cut out of it.
+Run once with internet access to create the cached files:
     python -m engine.maps
 After that the game loads the maps from data/maps/ and never needs internet.
 Map data from OpenStreetMap contributors.
