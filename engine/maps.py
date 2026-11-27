@@ -81,6 +81,27 @@ def load_map(size_m: int) -> nx.MultiDiGraph:
     return ox.load_graphml(path)
 
 
+def clean_map(graph: nx.MultiDiGraph) -> nx.MultiDiGraph:
+    """Make the map safe to drive on.
+
+    1. Keep only the biggest part where every intersection can reach every
+       other one (respecting one way streets). Pieces outside it are places a
+       robot could drive into and never leave, or never reach at all.
+    2. Remove streets that start and end at the same intersection (small
+       loops). They never help a route.
+    Street lengths are already in meters (OSMnx measures them).
+    """
+    cleaned = ox.truncate.largest_component(graph, strongly=True)
+    cleaned = nx.MultiDiGraph(cleaned)  # a copy we are allowed to change
+    cleaned.remove_edges_from(list(nx.selfloop_edges(cleaned, keys=True)))
+    return cleaned
+
+
+def load_clean_map(size_m: int) -> nx.MultiDiGraph:
+    """Load a cached map and clean it. This is the map the game uses."""
+    return clean_map(load_map(size_m))
+
+
 def describe(graph: nx.MultiDiGraph) -> str:
     """Short summary: intersections, street pieces, total street length."""
     total_km = sum(length for _, _, length in graph.edges(data="length")) / 1000
@@ -94,3 +115,4 @@ if __name__ == "__main__":
     cache_all_maps()
     for size in MAP_SIZES_M:
         print(f"{size} m map: {describe(load_map(size))}")
+        print(f"  after cleaning: {describe(load_clean_map(size))}")
