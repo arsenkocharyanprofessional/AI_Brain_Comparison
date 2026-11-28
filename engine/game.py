@@ -5,6 +5,7 @@ A week is 5 days (Monday to Friday) of 600 ticks each. Every tick:
   2. Every Ultima's action is resolved, all from the same starting snapshot,
      in this fixed order: shots, handovers, movement, collection, automatic
      vault drop off. (Each phase is added in its own build step.)
+  3. Every Ultima looks around, and its bank learns what it sees.
 After the last tick of a day comes the day end. After Friday the game is over.
 """
 
@@ -13,6 +14,7 @@ from engine.actions import Collect, Move
 from engine.cash import collect, drop_off
 from engine.movement import move
 from engine.state import GameState
+from engine.vision import update_knowledge
 
 
 # Clock
@@ -88,6 +90,7 @@ def play_tick(state: GameState, actions: dict | None = None) -> None:
     movement_phase(state, actions)
     collection_phase(state, actions)
     drop_off_phase(state)
+    update_knowledge(state)   # everyone looks around from their new spot
     advance_clock(state)
 
 

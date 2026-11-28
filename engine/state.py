@@ -8,11 +8,12 @@ decided later, by the game runner.
 import random
 from dataclasses import dataclass, field
 
-from engine import rules
 import networkx as nx
 
+from engine import rules
 from engine.layout import Layout, load_layout
 from engine.maps import load_map
+from engine.vision import Knowledge, NodeGrid, update_knowledge
 
 
 @dataclass
@@ -53,6 +54,7 @@ class Bank:
     vault: Vault
     atms: list[ATM]
     ultimas: list[Ultima]
+    knowledge: Knowledge = field(default_factory=Knowledge)
 
 
 @dataclass
@@ -64,6 +66,8 @@ class GameState:
     day: int = 1              # 1 = Monday ... 5 = Friday
     tick: int = 0             # tick within the day, 0 to 599
     atms_by_node: dict[int, ATM] = field(default_factory=dict)
+    vision_m: float = rules.VISION_M
+    node_grid: NodeGrid | None = field(default=None, compare=False, repr=False)
 
 
 def draw_fill_rates(layout: Layout) -> list[list[float]]:
@@ -92,16 +96,29 @@ def create_bank(layout: Layout, number: int, rates: list[float], ultimas_per_ban
 
 
 def create_state(
-    layout: Layout, graph: nx.MultiDiGraph, ultimas_per_bank: int = rules.ULTIMAS_PER_BANK
+    layout: Layout,
+    graph: nx.MultiDiGraph,
+    ultimas_per_bank: int = rules.ULTIMAS_PER_BANK,
+    vision_m: float = rules.VISION_M,
 ) -> GameState:
-    """A fresh Monday morning game on this layout and map."""
+    """A fresh Monday morning game on this layout and map.
+
+    Each bank starts knowing only what its Ultimas see from the vault.
+    """
     rates = draw_fill_rates(layout)
     banks = [create_bank(layout, n, rates[n], ultimas_per_bank) for n in range(len(layout.vaults))]
     state = GameState(layout, graph, banks, [Shop(node) for node in layout.shops])
     state.atms_by_node = {atm.node: atm for bank in banks for atm in bank.atms}
+    state.vision_m = vision_m
+    state.node_grid = NodeGrid(graph, cell_m=vision_m)
+    update_knowledge(state)
     return state
 
 
-def create_state_from_file(layout_number: int, ultimas_per_bank: int = rules.ULTIMAS_PER_BANK) -> GameState:
+def create_state_from_file(
+    layout_number: int,
+    ultimas_per_bank: int = rules.ULTIMAS_PER_BANK,
+    vision_m: float = rules.VISION_M,
+) -> GameState:
     layout = load_layout(layout_number)
-    return create_state(layout, load_map(layout.size_m), ultimas_per_bank)
+    return create_state(layout, load_map(layout.size_m), ultimas_per_bank, vision_m)
