@@ -3,8 +3,8 @@
 An Ultima is either standing at an intersection or part way along a street.
 Each tick it may drive up to its speed in meters, following a path of
 intersections. If it reaches an intersection with distance to spare, it
-continues onto the next street in the same tick. One way streets are
-respected: an Ultima can only drive a street in a direction that exists.
+continues onto the next street in the same tick. Every street is two way, so
+an Ultima can also turn around anywhere.
 """
 
 from engine import rules
@@ -22,7 +22,7 @@ def speed_m(ultima: Ultima, capacity: float = rules.CARGO_CAPACITY) -> float:
 def shortest_street(graph, start: int, end: int) -> tuple:
     """The street (start, end, key) to use. Two parallel streets: take the shorter."""
     if not graph.has_edge(start, end):
-        raise ValueError(f"No street from {start} to {end} in this direction")
+        raise ValueError(f"No street between {start} and {end}")
     key = min(graph[start][end], key=lambda k: (graph[start][end][k]["length"], k))
     return (start, end, key)
 
@@ -33,7 +33,7 @@ def street_length(graph, edge: tuple) -> float:
 
 
 def turn_around(graph, ultima: Ultima) -> None:
-    """Switch to the opposite direction of the current two way street."""
+    """Drive the current street the other way, keeping the same spot."""
     start, end, _ = ultima.edge
     driven = ultima.progress_m
     ultima.edge = shortest_street(graph, end, start)

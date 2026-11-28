@@ -19,6 +19,12 @@ def test_every_point_reaches_every_other(size_m):
 
 
 @pytest.mark.parametrize("size_m", MAP_SIZES_M)
+def test_every_street_is_two_way(size_m):
+    graph = load_map(size_m)
+    assert all(graph.has_edge(end, start) for start, end in graph.edges())
+
+
+@pytest.mark.parametrize("size_m", MAP_SIZES_M)
 def test_lengths_in_meters_and_no_loops(size_m):
     graph = load_map(size_m)
     lengths = [length for _, _, length in graph.edges(data="length")]

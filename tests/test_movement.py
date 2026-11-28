@@ -72,21 +72,26 @@ def test_part_way_along_a_street(state):
     assert driven == pytest.approx(rules.SPEED_M_PER_TICK)
 
 
-def test_one_way_streets_cannot_be_driven_backwards(state):
+def test_every_street_can_be_driven_both_ways(state):
     graph = state.graph
-    one_way = next((u, v) for u, v in graph.edges() if not graph.has_edge(v, u))
+    for start, end, length in graph.edges(data="length"):
+        reverse_lengths = [d["length"] for d in graph[end][start].values()]
+        assert any(abs(r - length) < 0.01 for r in reverse_lengths)
+
+
+def test_path_must_follow_streets(state):
+    graph = state.graph
     ultima = state.banks[0].ultimas[0]
-    ultima.node = one_way[1]
+    not_a_neighbor = next(n for n in sorted(graph.nodes)
+                          if n != ultima.node and not graph.has_edge(ultima.node, n))
     with pytest.raises(ValueError):
-        play_tick(state, {ultima.id: Move((one_way[0],))})
+        play_tick(state, {ultima.id: Move((not_a_neighbor,))})
 
 
-def test_turn_around_on_a_two_way_street(state):
+def test_turn_around_mid_street(state):
     graph = state.graph
-    u, v = next(
-        (u, v) for u, v, length in graph.edges(data="length")
-        if graph.has_edge(v, u) and length > 3 * rules.SPEED_M_PER_TICK
-    )
+    u, v = next((u, v) for u, v, length in graph.edges(data="length")
+                if length > 3 * rules.SPEED_M_PER_TICK)
     ultima = state.banks[0].ultimas[0]
     ultima.node = u
     play_tick(state, {ultima.id: Move((v,))})          # 25 m towards v

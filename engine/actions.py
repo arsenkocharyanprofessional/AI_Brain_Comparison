@@ -10,8 +10,8 @@ from dataclasses import dataclass
 class Move:
     """Drive along this path of intersections, as far as speed allows.
 
-    The first node must be the end of the street the Ultima is on (or, on a
-    two way street, the start, to turn around). When standing at an
+    The first node must be the end of the street the Ultima is on (or its
+    start, to turn around). When standing at an
     intersection, the first node is the next intersection to drive to (a
     path that starts with the current intersection is also accepted).
     Brains may send the whole remaining route every tick.
