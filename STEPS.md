@@ -16,7 +16,7 @@ DEMO MINIMUM: Stages 1 to 6, plus Stage 8, plus the Replay viewer (Stage 4 and 5
 * [x] 1.5 Generate and save 30 seeded layouts (10 per map size). No balance check; fairness comes from seat rotation. Done when: same seed gives the same layout; 30 layouts saved and load back.
 
 ## Stage 2: Engine core (no combat yet)
-* [ ] 2.1 Game state classes: Bank, Vault, ATM, Ultima, Shop. Done when: a state can be created from a layout file.
+* [x] 2.1 Game state classes: Bank, Vault, ATM, Ultima, Shop. Done when: a state can be created from a layout file.
 * [ ] 2.2 Tick loop: day and week clock, simultaneous resolution order, ATM filling with one shared rate set per layout, day end teleport and reset. Done when: a 5 day run with idle Ultimas finishes and ATM cash looks right.
 * [ ] 2.3 Movement along edges with speed and cargo slowdown. Done when: an Ultima driven along a fixed path arrives at the expected tick.
 * [ ] 2.4 Collect and deliver cash. Done when: a scripted Ultima empties an ATM and the vault grows by that amount.
