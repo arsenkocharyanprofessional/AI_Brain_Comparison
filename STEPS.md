@@ -21,7 +21,7 @@ DEMO MINIMUM: Stages 1 to 6, plus Stage 8, plus the Replay viewer (Stage 4 and 5
 * [x] 2.3 Movement along edges with speed and cargo slowdown. Done when: an Ultima driven along a fixed path arrives at the expected tick.
 * [x] 2.4 Collect and deliver cash. Done when: a scripted Ultima empties an ATM and the vault grows by that amount.
 * [x] 2.5 Fog: known map per bank, vision circle, shared bank knowledge, ATM discovery. Done when: a bank's known map grows as its Ultimas drive.
-* [ ] 2.6 Event log and replay file writer. Done when: one game produces a replay file we can read back.
+* [x] 2.6 Event log and replay file writer. Done when: one game produces a replay file we can read back.
 
 ## Stage 3: Shared base and first brains
 * [ ] 3.1 Brain interface: brain gets its bank's view only, returns one action per Ultima per tick. Done when: a do nothing brain runs a full game.

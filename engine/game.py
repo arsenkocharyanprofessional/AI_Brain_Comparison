@@ -12,6 +12,7 @@ After the last tick of a day comes the day end. After Friday the game is over.
 from engine import rules
 from engine.actions import Collect, Move
 from engine.cash import collect, drop_off
+from engine.events import log_event
 from engine.movement import move
 from engine.state import GameState
 from engine.vision import update_knowledge
@@ -25,9 +26,10 @@ def is_over(state: GameState) -> bool:
 
 def advance_clock(state: GameState) -> None:
     """Move to the next tick; after the last tick of a day, end the day."""
-    state.tick += 1
-    if state.tick == rules.TICKS_PER_DAY:
+    if state.tick == rules.TICKS_PER_DAY - 1:
         end_day(state)
+    else:
+        state.tick += 1
 
 
 # ATMs
@@ -45,6 +47,10 @@ def end_day(state: GameState) -> None:
 
     ATMs keep their cash overnight and do not fill at night.
     """
+    for ultima in all_ultimas(state):
+        if ultima.cargo > 0:
+            log_event(state, "day_end_loss", ultima=ultima.id, amount=ultima.cargo)
+    log_event(state, "day_end", vault_cash=[bank.vault.cash for bank in state.banks])
     for bank in state.banks:
         for ultima in bank.ultimas:
             ultima.node = bank.vault.node
@@ -74,12 +80,15 @@ def movement_phase(state: GameState, actions: dict) -> None:
 def collection_phase(state: GameState, actions: dict) -> None:
     for ultima in all_ultimas(state):
         if isinstance(actions.get(ultima.id), Collect):
-            collect(state, ultima)
+            amount = collect(state, ultima)
+            log_event(state, "collect", ultima=ultima.id, atm=ultima.node, amount=amount)
 
 
 def drop_off_phase(state: GameState) -> None:
     for ultima in all_ultimas(state):
-        drop_off(state, ultima)
+        amount = drop_off(state, ultima)
+        if amount > 0:
+            log_event(state, "deliver", ultima=ultima.id, amount=amount)
 
 
 def play_tick(state: GameState, actions: dict | None = None) -> None:
@@ -94,6 +103,16 @@ def play_tick(state: GameState, actions: dict | None = None) -> None:
     advance_clock(state)
 
 
-def play_week(state: GameState) -> None:
+def play_week(state: GameState, controller=None, recorder=None) -> None:
+    """Play the whole week.
+
+    controller(state) returns the actions for the next tick (brains plug in
+    here in stage 3). recorder, if given, saves a replay frame after each tick.
+    """
+    if recorder is not None:
+        recorder.record(state)
     while not is_over(state):
-        play_tick(state)
+        actions = controller(state) if controller is not None else {}
+        play_tick(state, actions)
+        if recorder is not None:
+            recorder.record(state)

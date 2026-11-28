@@ -67,6 +67,7 @@ class GameState:
     tick: int = 0             # tick within the day, 0 to 599
     atms_by_node: dict[int, ATM] = field(default_factory=dict)
     vision_m: float = rules.VISION_M
+    events: list = field(default_factory=list, compare=False, repr=False)
     node_grid: NodeGrid | None = field(default=None, compare=False, repr=False)
 
 
