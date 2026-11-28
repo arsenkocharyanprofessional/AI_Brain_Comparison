@@ -29,3 +29,6 @@ RELOAD_TICKS = 2
 SHOT_RANGE_M = 50
 CARGO_CAPACITY = 600
 VISION_M = 150                # setup option; experiments always use 150
+
+# What a bank sees of enemies in vision
+HEAVY_CARGO_FROM = 300        # cargo label: empty at 0, light below this, heavy from this

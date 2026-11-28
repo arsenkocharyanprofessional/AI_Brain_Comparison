@@ -24,7 +24,7 @@ DEMO MINIMUM: Stages 1 to 6, plus Stage 8, plus the Replay viewer (Stage 4 and 5
 * [x] 2.6 Event log and replay file writer. Done when: one game produces a replay file we can read back.
 
 ## Stage 3: Shared base and first brains
-* [ ] 3.1 Brain interface: brain gets its bank's view only, returns one action per Ultima per tick. Done when: a do nothing brain runs a full game.
+* [x] 3.1 Brain interface: brain gets its bank's view only, returns one action per Ultima per tick. Done when: a do nothing brain runs a full game.
 * [ ] 3.2 A* on the known map with a node counter. Done when: routes match NetworkX shortest paths on the full map.
 * [ ] 3.3 Frontier exploration split among teammates. Done when: most of the map is known by day 3 (measure it).
 * [ ] 3.4 ATM assignment as CSP (MRV, forward checking). Done when: every known ATM is assigned and loads are balanced.
