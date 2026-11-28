@@ -9,7 +9,10 @@ import random
 from dataclasses import dataclass, field
 
 from engine import rules
+import networkx as nx
+
 from engine.layout import Layout, load_layout
+from engine.maps import load_map
 
 
 @dataclass
@@ -36,7 +39,9 @@ class Shop:
 class Ultima:
     id: str                   # for example "B2-U3": bank 2, Ultima 3
     bank: int
-    node: int                 # where it stands; starts at its vault
+    node: int                 # last intersection reached; starts at its vault
+    edge: tuple | None = None # street it is driving on (from, to, key), or None
+    progress_m: float = 0.0   # meters driven along that street
     hp: int = rules.MAX_HP
     ammo: int = rules.MAX_AMMO
     cargo: float = 0.0
@@ -53,6 +58,7 @@ class Bank:
 @dataclass
 class GameState:
     layout: Layout
+    graph: nx.MultiDiGraph = field(compare=False, repr=False)
     banks: list[Bank]
     shops: list[Shop]
     day: int = 1              # 1 = Monday ... 5 = Friday
@@ -85,14 +91,17 @@ def create_bank(layout: Layout, number: int, rates: list[float], ultimas_per_ban
     return Bank(number, Vault(vault_node, number), atms, ultimas)
 
 
-def create_state(layout: Layout, ultimas_per_bank: int = rules.ULTIMAS_PER_BANK) -> GameState:
-    """A fresh Monday morning game on this layout."""
+def create_state(
+    layout: Layout, graph: nx.MultiDiGraph, ultimas_per_bank: int = rules.ULTIMAS_PER_BANK
+) -> GameState:
+    """A fresh Monday morning game on this layout and map."""
     rates = draw_fill_rates(layout)
     banks = [create_bank(layout, n, rates[n], ultimas_per_bank) for n in range(len(layout.vaults))]
-    state = GameState(layout, banks, [Shop(node) for node in layout.shops])
+    state = GameState(layout, graph, banks, [Shop(node) for node in layout.shops])
     state.atms_by_node = {atm.node: atm for bank in banks for atm in bank.atms}
     return state
 
 
 def create_state_from_file(layout_number: int, ultimas_per_bank: int = rules.ULTIMAS_PER_BANK) -> GameState:
-    return create_state(load_layout(layout_number), ultimas_per_bank)
+    layout = load_layout(layout_number)
+    return create_state(layout, load_map(layout.size_m), ultimas_per_bank)
