@@ -10,13 +10,16 @@ ATMs: 40 ATMs (8 per bank) dropped at random spots all over the map, then
 owners are shuffled so every bank's ATMs are mixed with rivals' ATMs.
 """
 
+import json
 import math
 import random
 from dataclasses import dataclass
+from pathlib import Path
 
 import networkx as nx
 
 from engine.geometry import distance, node_xy
+from engine.maps import MAP_SIZES_M, load_map
 
 NUM_BANKS = 5
 
@@ -201,3 +204,55 @@ def generate_layout(graph: nx.MultiDiGraph, size_m: int, seed: int) -> Layout:
     shops = place_shops(graph, size_m, vaults, rng)
     atms = place_atm_spots(graph, size_m, vaults + shops, rng)
     return Layout(size_m, seed, vaults, shops, assign_atm_owners(atms, rng))
+
+
+# The 30 experiment layouts
+# Layouts 1 to 10 use the small map, 11 to 20 the medium, 21 to 30 the large.
+# The layout number is also its seed.
+
+LAYOUTS_DIR = Path(__file__).resolve().parent.parent / "data" / "layouts"
+LAYOUTS_PER_SIZE = 10
+
+
+def layout_plan() -> list[tuple[int, int]]:
+    """(layout number, map size) for all 30 layouts."""
+    plan = []
+    for size_index, size_m in enumerate(MAP_SIZES_M):
+        for i in range(1, LAYOUTS_PER_SIZE + 1):
+            plan.append((size_index * LAYOUTS_PER_SIZE + i, size_m))
+    return plan
+
+
+def layout_path(number: int) -> Path:
+    return LAYOUTS_DIR / f"layout_{number:02d}.json"
+
+
+def save_layout(layout: Layout, path: Path) -> None:
+    data = {
+        "size_m": layout.size_m,
+        "seed": layout.seed,
+        "vaults": layout.vaults,
+        "shops": layout.shops,
+        "atms": [{"node": node, "bank": bank} for node, bank in layout.atm_owner.items()],
+    }
+    path.write_text(json.dumps(data, indent=2) + "\n")
+
+
+def load_layout(number: int) -> Layout:
+    data = json.loads(layout_path(number).read_text())
+    atm_owner = {atm["node"]: atm["bank"] for atm in data["atms"]}
+    return Layout(data["size_m"], data["seed"], data["vaults"], data["shops"], atm_owner)
+
+
+def generate_all_layouts() -> None:
+    """Create and save the 30 experiment layouts."""
+    LAYOUTS_DIR.mkdir(parents=True, exist_ok=True)
+    maps = {size_m: load_map(size_m) for size_m in MAP_SIZES_M}
+    for number, size_m in layout_plan():
+        layout = generate_layout(maps[size_m], size_m, seed=number)
+        save_layout(layout, layout_path(number))
+
+
+if __name__ == "__main__":
+    generate_all_layouts()
+    print(f"Saved {len(layout_plan())} layouts to {LAYOUTS_DIR}")

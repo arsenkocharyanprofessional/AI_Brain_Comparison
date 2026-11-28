@@ -16,6 +16,8 @@ from engine.layout import (
     SAFE_ZONE_RADIUS_M,
     far_from_all,
     generate_layout,
+    layout_plan,
+    load_layout,
     place_vaults,
     road_count,
 )
@@ -70,3 +72,16 @@ def test_atms_and_shops_follow_the_rules(maps, size_m):
 def test_same_seed_gives_same_layout(maps, size_m):
     graph = maps[size_m]
     assert generate_layout(graph, size_m, 3) == generate_layout(graph, size_m, 3)
+
+
+def test_thirty_saved_layouts_load_and_match_their_seeds(maps):
+    plan = layout_plan()
+    assert len(plan) == 30
+    assert [size for _, size in plan].count(MAP_SIZES_M[0]) == 10
+    for number, size_m in plan:
+        saved = load_layout(number)
+        assert saved.size_m == size_m and saved.seed == number
+        assert saved == generate_layout(maps[size_m], size_m, seed=number)
+        graph = maps[size_m]
+        nodes = saved.vaults + saved.shops + list(saved.atm_owner)
+        assert all(node in graph for node in nodes)
