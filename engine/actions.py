@@ -18,3 +18,8 @@ class Move:
     """
 
     path: tuple[int, ...]
+
+
+@dataclass(frozen=True)
+class Collect:
+    """Take cash from the own ATM the Ultima is standing at (the tick's action)."""

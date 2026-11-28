@@ -9,7 +9,8 @@ After the last tick of a day comes the day end. After Friday the game is over.
 """
 
 from engine import rules
-from engine.actions import Move
+from engine.actions import Collect, Move
+from engine.cash import collect, drop_off
 from engine.movement import move
 from engine.state import GameState
 
@@ -68,13 +69,25 @@ def movement_phase(state: GameState, actions: dict) -> None:
             move(state.graph, ultima, action)
 
 
+def collection_phase(state: GameState, actions: dict) -> None:
+    for ultima in all_ultimas(state):
+        if isinstance(actions.get(ultima.id), Collect):
+            collect(state, ultima)
+
+
+def drop_off_phase(state: GameState) -> None:
+    for ultima in all_ultimas(state):
+        drop_off(state, ultima)
+
+
 def play_tick(state: GameState, actions: dict | None = None) -> None:
     """Play one tick. actions maps an Ultima id to its action for this tick."""
     actions = actions or {}
     fill_atms(state)
     # Shots and handovers come in stage 5.
     movement_phase(state, actions)
-    # Collection and drop off come in step 2.4.
+    collection_phase(state, actions)
+    drop_off_phase(state)
     advance_clock(state)
 
 
