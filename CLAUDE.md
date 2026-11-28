@@ -56,7 +56,7 @@ Every brain = Planner (shared base) + one course method. They differ only in how
 
 ## Experiments
 * 30 layouts: 10 each at 2, 2.5, 3 km. Each played 5 times: for each layout pick a random (seeded) base order of the 5 brains, then play its 5 cyclic rotations. Every brain sits in every seat on every layout, and neighbors vary across layouts. 150 games. Same seeds across rotations, separate random streams.
-* Thinking limit, counted in search nodes: each brain's own method (Hunter interception search, Tactician Expectimax, Strategist expected value and route penalty calculations, Convoy meeting point search) gets the same per decision budget. The shared base gets its own fixed cap, identical for all brains. All nodes are recorded either way, and time too, so the thinking cost metric shows both parts.
+* Thinking limit, counted in search nodes: each brain's own method (Hunter interception search, Tactician Expectimax, Strategist expected value and route penalty calculations, Convoy meeting point search) gets the same per decision budget. The shared base gets its own fixed cap, identical for all brains. All nodes are recorded either way, and time too, so the thinking cost metric shows both parts. For A*, one node is one intersection taken from the open list and expanded.
 * Experiments always use the default number of Ultimas (4) and vision (150 m).
 * Self play check: Planner in all 5 seats, for balance.
 * Fight definition: a fight is per pair of Ultimas from different banks. It starts at the first shot between them and ends at a death or after 20 ticks with no shots between them. Death: the killer wins. Otherwise whoever left line of fire first loses; if neither did, it is a draw. Fights are also counted per bank pair for the who robs whom matrix.
