@@ -10,18 +10,18 @@ DEMO MINIMUM: Stages 1 to 6, plus Stage 8, plus the Replay viewer (Stage 4 and 5
 
 ## Stage 1: Map and layout
 * [x] 1.1 Download and cache the Yerevan drive network at 2, 2.5, 3 km. Done when: 3 cached graph files are committed, load offline, and node and edge counts are printed.
-* [x] 1.2 Clean the graph: keep the largest strongly connected part, edge lengths in meters. Done when: every node can reach every other node.
+* [x] 1.2 Clean the graph: make every street two way, keep the largest connected part, edge lengths in meters. Done when: every node can reach every other node.
 * [x] 1.3 Place 5 vaults on a ring (at least 800 m apart, well connected nodes). Done when: a plot shows 5 vaults and the distance check passes.
 * [x] 1.4 Place 40 ATMs and 2 shops. Done when: plot shows them mixed across the map.
 * [x] 1.5 Generate and save 30 seeded layouts (10 per map size). No balance check; fairness comes from seat rotation. Done when: same seed gives the same layout; 30 layouts saved and load back.
 
 ## Stage 2: Engine core (no combat yet)
-* [ ] 2.1 Game state classes: Bank, Vault, ATM, Ultima, Shop. Done when: a state can be created from a layout file.
-* [ ] 2.2 Tick loop: day and week clock, simultaneous resolution order, ATM filling with one shared rate set per layout, day end teleport and reset. Done when: a 5 day run with idle Ultimas finishes and ATM cash looks right.
-* [ ] 2.3 Movement along edges with speed and cargo slowdown. Done when: an Ultima driven along a fixed path arrives at the expected tick.
-* [ ] 2.4 Collect and deliver cash. Done when: a scripted Ultima empties an ATM and the vault grows by that amount.
-* [ ] 2.5 Fog: known map per bank, vision circle, shared bank knowledge, ATM discovery. Done when: a bank's known map grows as its Ultimas drive.
-* [ ] 2.6 Event log and replay file writer. Done when: one game produces a replay file we can read back.
+* [x] 2.1 Game state classes: Bank, Vault, ATM, Ultima, Shop. Done when: a state can be created from a layout file.
+* [x] 2.2 Tick loop: day and week clock, simultaneous resolution order, ATM filling with one shared rate set per layout, day end teleport and reset. Done when: a 5 day run with idle Ultimas finishes and ATM cash looks right.
+* [x] 2.3 Movement along edges with speed and cargo slowdown. Done when: an Ultima driven along a fixed path arrives at the expected tick.
+* [x] 2.4 Collect and deliver cash. Done when: a scripted Ultima empties an ATM and the vault grows by that amount.
+* [x] 2.5 Fog: known map per bank, vision circle, shared bank knowledge, ATM discovery. Done when: a bank's known map grows as its Ultimas drive.
+* [x] 2.6 Event log and replay file writer. Done when: one game produces a replay file we can read back.
 
 ## Stage 3: Shared base and first brains
 * [ ] 3.1 Brain interface: brain gets its bank's view only, returns one action per Ultima per tick. Done when: a do nothing brain runs a full game.

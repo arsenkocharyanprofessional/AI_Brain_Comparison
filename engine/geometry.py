@@ -29,3 +29,8 @@ def node_xy(graph, node) -> tuple[float, float]:
 def distance(a: tuple[float, float], b: tuple[float, float]) -> float:
     """Straight line distance in meters."""
     return math.hypot(a[0] - b[0], a[1] - b[1])
+
+
+def to_lonlat(x: float, y: float) -> tuple[float, float]:
+    """The opposite of to_meters: meters back to (longitude, latitude)."""
+    return CENTER[1] + x / METERS_PER_DEGREE_LON, CENTER[0] + y / METERS_PER_DEGREE_LAT

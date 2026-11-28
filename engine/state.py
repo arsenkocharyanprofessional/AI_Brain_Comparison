@@ -1,0 +1,125 @@
+"""The game state: everything that exists in one game at one moment.
+
+A state is created from a saved layout. Bank numbers are seats: bank 0 owns
+vaults[0] and every ATM marked with bank 0. Which brain plays which seat is
+decided later, by the game runner.
+"""
+
+import random
+from dataclasses import dataclass, field
+
+import networkx as nx
+
+from engine import rules
+from engine.layout import Layout, load_layout
+from engine.maps import load_map
+from engine.vision import Knowledge, NodeGrid, update_knowledge
+
+
+@dataclass
+class ATM:
+    node: int
+    bank: int
+    fill_rate: float          # hidden from brains: cash added per tick
+    cash: float = 0.0         # Monday starts empty
+
+
+@dataclass
+class Vault:
+    node: int
+    bank: int
+    cash: float = rules.STARTING_VAULT_CASH
+
+
+@dataclass
+class Shop:
+    node: int
+
+
+@dataclass
+class Ultima:
+    id: str                   # for example "B2-U3": bank 2, Ultima 3
+    bank: int
+    node: int                 # last intersection reached; starts at its vault
+    edge: tuple | None = None # street it is driving on (from, to, key), or None
+    progress_m: float = 0.0   # meters driven along that street
+    hp: int = rules.MAX_HP
+    ammo: int = rules.MAX_AMMO
+    cargo: float = 0.0
+
+
+@dataclass
+class Bank:
+    number: int
+    vault: Vault
+    atms: list[ATM]
+    ultimas: list[Ultima]
+    knowledge: Knowledge = field(default_factory=Knowledge)
+
+
+@dataclass
+class GameState:
+    layout: Layout
+    graph: nx.MultiDiGraph = field(compare=False, repr=False)
+    banks: list[Bank]
+    shops: list[Shop]
+    day: int = 1              # 1 = Monday ... 5 = Friday
+    tick: int = 0             # tick within the day, 0 to 599
+    atms_by_node: dict[int, ATM] = field(default_factory=dict)
+    vision_m: float = rules.VISION_M
+    events: list = field(default_factory=list, compare=False, repr=False)
+    node_grid: NodeGrid | None = field(default=None, compare=False, repr=False)
+
+
+def draw_fill_rates(layout: Layout) -> list[list[float]]:
+    """One set of 8 rates per layout, given to every bank in its own order.
+
+    All banks get exactly the same rates, so they have identical income
+    potential. Rates come from the layout seed only, so all 5 rotations of a
+    layout see the same rates in the same seats.
+    """
+    rng = random.Random(f"fill-rates-{layout.seed}")
+    atms_per_bank = len(layout.atms_of(0))
+    rate_set = [rng.uniform(rules.FILL_RATE_MIN, rules.FILL_RATE_MAX) for _ in range(atms_per_bank)]
+    per_bank = []
+    for _ in range(len(layout.vaults)):
+        rates = rate_set[:]
+        rng.shuffle(rates)
+        per_bank.append(rates)
+    return per_bank
+
+
+def create_bank(layout: Layout, number: int, rates: list[float], ultimas_per_bank: int) -> Bank:
+    vault_node = layout.vaults[number]
+    atms = [ATM(node, number, rate) for node, rate in zip(layout.atms_of(number), rates)]
+    ultimas = [Ultima(f"B{number}-U{i}", number, vault_node) for i in range(ultimas_per_bank)]
+    return Bank(number, Vault(vault_node, number), atms, ultimas)
+
+
+def create_state(
+    layout: Layout,
+    graph: nx.MultiDiGraph,
+    ultimas_per_bank: int = rules.ULTIMAS_PER_BANK,
+    vision_m: float = rules.VISION_M,
+) -> GameState:
+    """A fresh Monday morning game on this layout and map.
+
+    Each bank starts knowing only what its Ultimas see from the vault.
+    """
+    rates = draw_fill_rates(layout)
+    banks = [create_bank(layout, n, rates[n], ultimas_per_bank) for n in range(len(layout.vaults))]
+    state = GameState(layout, graph, banks, [Shop(node) for node in layout.shops])
+    state.atms_by_node = {atm.node: atm for bank in banks for atm in bank.atms}
+    state.vision_m = vision_m
+    state.node_grid = NodeGrid(graph, cell_m=vision_m)
+    update_knowledge(state)
+    return state
+
+
+def create_state_from_file(
+    layout_number: int,
+    ultimas_per_bank: int = rules.ULTIMAS_PER_BANK,
+    vision_m: float = rules.VISION_M,
+) -> GameState:
+    layout = load_layout(layout_number)
+    return create_state(layout, load_map(layout.size_m), ultimas_per_bank, vision_m)

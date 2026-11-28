@@ -20,8 +20,7 @@ import networkx as nx
 
 from engine.geometry import distance, node_xy
 from engine.maps import MAP_SIZES_M, load_map
-
-NUM_BANKS = 5
+from engine.rules import NUM_BANKS
 
 # Ring radius as a share of the map's half side (2000 m map: 1000 m ring)
 RING_RADIUS_SHARE = 0.5

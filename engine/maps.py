@@ -1,8 +1,8 @@
 """Download, clean, save and load the Yerevan road maps.
 
 Each map is a square around Republic Square. "Size" is half the side of the
-square, so the 2000 m map covers 4 km x 4 km. Only drivable streets are kept,
-and one way streets stay one way.
+square, so the 2000 m map covers 4 km x 4 km. Only drivable streets are kept.
+We ignore traffic rules: in the cleaned map every street is two way.
 
 Two files per size live in data/maps/:
   yerevan_2000m_raw.graphml   the streets exactly as downloaded
@@ -88,18 +88,44 @@ def download_raw_maps() -> None:
 
 # Cleaning
 
-def clean_map(graph: nx.MultiDiGraph) -> nx.MultiDiGraph:
-    """Make the map safe to drive on.
+def has_twin(graph: nx.MultiDiGraph, start, end, length: float) -> bool:
+    """True if a street of this length already runs from end back to start."""
+    if not graph.has_edge(end, start):
+        return False
+    return any(abs(d["length"] - length) < 0.01 for d in graph[end][start].values())
 
-    1. Keep only the biggest part where every intersection can reach every
-       other one (respecting one way streets). Pieces outside it are places a
-       robot could drive into and never leave, or never reach at all.
-    2. Remove streets that start and end at the same intersection (small
+
+def make_two_way(graph: nx.MultiDiGraph) -> nx.MultiDiGraph:
+    """Give every one way street a twin in the opposite direction.
+
+    The twin has the same length and the same shape, drawn backwards.
+    Two way streets already come as a pair from OpenStreetMap. A street
+    counts as paired only if the opposite direction has a street of the same
+    length (two different streets can join the same two intersections).
+    """
+    two_way = nx.MultiDiGraph(graph)  # a copy we are allowed to change
+    for start, end, data in list(graph.edges(data=True)):
+        if not has_twin(graph, start, end, data["length"]):
+            twin = dict(data, oneway=False)
+            if "geometry" in data:
+                twin["geometry"] = data["geometry"].reverse()
+            two_way.add_edge(end, start, **twin)
+    return two_way
+
+
+def clean_map(graph: nx.MultiDiGraph) -> nx.MultiDiGraph:
+    """Make the map simple and safe to drive on.
+
+    1. Make every street two way (we ignore traffic rules), so the distance
+       from A to B always equals the distance from B to A.
+    2. Keep only the biggest connected part. Pieces outside it are cut off
+       from the rest of the map, usually by the square's border.
+    3. Remove streets that start and end at the same intersection (small
        loops). They never help a route.
     Street lengths are already in meters (OSMnx measures them).
     """
-    cleaned = ox.truncate.largest_component(graph, strongly=True)
-    cleaned = nx.MultiDiGraph(cleaned)  # a copy we are allowed to change
+    cleaned = make_two_way(graph)
+    cleaned = nx.MultiDiGraph(ox.truncate.largest_component(cleaned, strongly=True))
     cleaned.remove_edges_from(list(nx.selfloop_edges(cleaned, keys=True)))
     return cleaned
 
