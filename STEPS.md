@@ -17,7 +17,7 @@ DEMO MINIMUM: Stages 1 to 6, plus Stage 8, plus the Replay viewer (Stage 4 and 5
 
 ## Stage 2: Engine core (no combat yet)
 * [x] 2.1 Game state classes: Bank, Vault, ATM, Ultima, Shop. Done when: a state can be created from a layout file.
-* [ ] 2.2 Tick loop: day and week clock, simultaneous resolution order, ATM filling with one shared rate set per layout, day end teleport and reset. Done when: a 5 day run with idle Ultimas finishes and ATM cash looks right.
+* [x] 2.2 Tick loop: day and week clock, simultaneous resolution order, ATM filling with one shared rate set per layout, day end teleport and reset. Done when: a 5 day run with idle Ultimas finishes and ATM cash looks right.
 * [ ] 2.3 Movement along edges with speed and cargo slowdown. Done when: an Ultima driven along a fixed path arrives at the expected tick.
 * [ ] 2.4 Collect and deliver cash. Done when: a scripted Ultima empties an ATM and the vault grows by that amount.
 * [ ] 2.5 Fog: known map per bank, vision circle, shared bank knowledge, ATM discovery. Done when: a bank's known map grows as its Ultimas drive.
